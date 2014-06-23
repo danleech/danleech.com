@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="dns-prefetch" href="//use.typekit.net">
+	<link rel="dns-prefetch" href="//www.google-analytics.com">
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}{{ site.name }}</title>
+	<link rel="stylesheet" href="{{ site.url }}/css/main.css">
+</head>
+
+<body>{% if page.title != "Page Not Found" %}
+	<link rel="dns-prefetch" href="//twitter.com">
+	<link rel="dns-prefetch" href="//github.com">{% endif %}
