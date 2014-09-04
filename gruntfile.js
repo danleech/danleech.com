@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 			toDist: {
 				expand: true,
 				cwd: 'build',
-				src: '**/*.ico',
+				src: ['**/*.ico', 'fonts/*.*'],
 				dest: 'dist'
 			}
 		},
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'build',
 					src: '**/*.css',
-					dest: 'dist'
+					dest: 'build'
 				}]
 			}
 		},
@@ -60,6 +60,16 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
+        inline: {
+            toBuild: {
+                files: [{
+                    expand: true,
+                    cwd: 'build',
+                    src: '**/*.html',
+                    dest: 'build'
+                }]
+            }
+        },
 		sass: {
 			toBuild: {
 				files: [{
@@ -89,6 +99,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-inline');
 	grunt.loadNpmTasks('grunt-jekyll');
-	grunt.registerTask('default', ['clean:before', 'jekyll', 'htmlmin', 'imagemin', 'sass', 'cssmin', 'uglify', 'copy', 'clean:after']);
+	grunt.registerTask('default', ['clean:before', 'jekyll', 'imagemin', 'sass', 'cssmin', 'uglify', 'inline', 'htmlmin', 'copy', 'clean:after']);
 };
