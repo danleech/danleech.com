@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 			toDist: {
 				expand: true,
 				cwd: 'build',
-				src: ['**/*.ico', 'fonts/*.*'],
+				src: ['**/*.ico', 'fonts/*.*', '**/*.css'],
 				dest: 'dist'
 			}
 		},
