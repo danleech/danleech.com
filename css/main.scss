@@ -75,6 +75,12 @@ blockquote {
 
 figure {
     text-align: center;
+    a {
+        background-image: none;
+        &:focus, &:hover {
+            background-image: none;
+        }
+    }
     img {
         max-width: 100%;
     }
@@ -88,6 +94,16 @@ figure {
 figcaption {
     font-size: 0.75rem;
     font-style: italic;
+    a {
+        background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
+        background-position: bottom;
+        background-repeat: repeat-x;
+        background-size: 2px 2px;
+        &:focus, &:hover {
+            color: $red;
+            background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $red 50%, $red 100%);
+        }
+    }
 }
 
 h1, h2 {

@@ -95,6 +95,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_posts\/2013-10-20-i-climbed-kilimanjaro.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_posts\/2013-10-20-i-climbed-kilimanjaro.md",
+		"outputAbbreviatedPath": "\/_posts\/2013-10-20-i-climbed-kilimanjaro.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_posts\/2014-03-05-coffee-set-up-2014.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -172,31 +184,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/main.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 3,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/main.scss",
-		"outputAbbreviatedPath": "\/_site\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
 		},
 	"\/_site\/fonts\/267175\/012A47FBF9B17BE85.css": {
 		"fileType": 16,
@@ -450,6 +437,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/images\/kilimanjaro-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.97729e+06,
+		"inputAbbreviatedPath": "\/_site\/images\/kilimanjaro-full.jpg",
+		"outputAbbreviatedPath": "\/_site\/images\/kilimanjaro-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/kilimanjaro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -457,17 +455,6 @@
 		"initialSize": 184637,
 		"inputAbbreviatedPath": "\/_site\/images\/kilimanjaro.jpg",
 		"outputAbbreviatedPath": "\/_site\/images\/kilimanjaro.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/images\/snowdon.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 222613,
-		"inputAbbreviatedPath": "\/_site\/images\/snowdon.jpg",
-		"outputAbbreviatedPath": "\/_site\/images\/snowdon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -776,17 +763,6 @@
 		"initialSize": 184637,
 		"inputAbbreviatedPath": "\/images\/kilimanjaro.jpg",
 		"outputAbbreviatedPath": "\/images\/kilimanjaro.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/snowdon.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230014,
-		"inputAbbreviatedPath": "\/images\/snowdon.jpg",
-		"outputAbbreviatedPath": "\/images\/snowdon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
