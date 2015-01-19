@@ -1,0 +1,5 @@
+name: "Dan Leech"
+author: "Dan Leech"
+description: "I design software, tinker with type, climb mountains and brew coffee."
+permalinks: pretty
+markdown: redcarpet

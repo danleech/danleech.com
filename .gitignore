@@ -14,9 +14,4 @@ Temporary Items
 # Sass
 .sass-cache
 
-# Grunt
-.grunt
-build
-dist
-node_modules
-*.log
+_site
