@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Dan Leech</title>
+        <description>I design software, tinker with type, climb mountains and brew coffee.</description>      
+        <link></link>
+        <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Offscreen Magazine #10</title>
+                <description>&lt;blockquote&gt;
+&lt;p&gt;Reminder: the first 2,000 copies ordered will contain a special little goodie as part of our 10th anniversary issue. As of today, we have about 500 copies left. Make sure you order asap!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Offscreen’s goodies are always a delight.&lt;/p&gt;
+</description>
+                <pubDate>Mon, 19 Jan 2015 12:00:00 +0000</pubDate>
+                <link>/2015/01/19/offscreen-magazine-10.html</link>
+                <guid isPermaLink="true">/2015/01/19/offscreen-magazine-10.html</guid>
+            </item>
+        
+            <item>
+                <title>Designing Presentations</title>
+                <description>&lt;p&gt;This is a wonderfully thorough article on presentation design, covering everything from slide content and layout through to practice and pacing. As someone who struggles with public speaking there’s plenty for me to think about in here.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 06 Dec 2012 12:00:00 +0000</pubDate>
+                <link>/2012/12/06/designing-presentations.html</link>
+                <guid isPermaLink="true">/2012/12/06/designing-presentations.html</guid>
+            </item>
+        
+            <item>
+                <title>Characters</title>
+                <description>&lt;p&gt;Say goodbye to the days of remembering obscure codes for UTF-8 special characters. Characters is a Mac app designed for people (like me) who are pedantic about punctuation on the web.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 02 Dec 2012 12:00:00 +0000</pubDate>
+                <link>/2012/12/02/characters.html</link>
+                <guid isPermaLink="true">/2012/12/02/characters.html</guid>
+            </item>
+        
+            <item>
+                <title>Invert the Magic Trackpad</title>
+                <description>&lt;p&gt;I have Mac OS X configured so that my Magic Trackpad tilts away from me, keeping my wrist at a more natural angle when gesturing. Combined with a palm rest this is a much more comfortable way to operate than with the standard orientation.&lt;/p&gt;
+</description>
+                <pubDate>Sun, 06 May 2012 12:00:00 +0000</pubDate>
+                <link>/2012/05/06/invert-the-magic-trackpad.html</link>
+                <guid isPermaLink="true">/2012/05/06/invert-the-magic-trackpad.html</guid>
+            </item>
+        
+    </channel>
+</rss>
