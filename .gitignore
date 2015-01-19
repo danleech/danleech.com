@@ -13,6 +13,7 @@ Temporary Items
 
 # Sass
 .sass-cache
+_site
 
 # Grunt
 .grunt
