@@ -5,7 +5,7 @@ layout: post
 ---
 
 <figure>
-    <a href="/images/kilimanjaro-full.jpg"><img src="/images/kilimanjaro.jpg" alt=""></a>
+    <a href="/images/kilimanjaro-full.jpg"><img src="/images/kilimanjaro.jpg" alt="Photo of Robert and Dan at the summit of Mount Kilimanjaro"></a>
     <figcaption>Robert and Dan at the summit of Mount Kilimanjaro.</figcaption>
 </figure>
 
