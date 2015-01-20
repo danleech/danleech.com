@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,13 @@
     <title>{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}{{ site.name }}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% if page.layout == post %}
+    <meta property="article:author" content="{{ site.author }}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
     <link rel="stylesheet" href="//cloud.typography.com/7437472/747866/css/fonts.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="http://danleech.com/feed/">
