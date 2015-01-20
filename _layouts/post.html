@@ -3,7 +3,7 @@
         {% if page.linkpost == "true" %}<article class="article--link">
             <header>
                 <h1><a href="{{ page.link }}">{{ page.title }}</a>
-                    <a href="{{ page.url }}" class="permalink" title="Permalink">Permalink</a></h1>
+                    <a href="{{ page.url }}" class="permalink">Permalink</a></h1>
                 <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d" }}{% assign cardinal = page.date | date: "%-d" %}{% case cardinal %}{% when "1" or "21" or "31" %}st{% when "2" or "22" %}nd{% when "3" or "23" %}rd{% else %}th{% endcase %} {{ page.date | date: "%B %Y"}}</time>
             </header>
             {{ content }}
