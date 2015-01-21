@@ -65,11 +65,14 @@ blockquote, figure, ol, p, ul {
 }
 
 blockquote {
-    padding: 0 0 0 1.25rem;
+    padding: 0 0 0 0.75rem;
     border-left: 0.25rem solid $grey;
     font-style: italic;
     em {
         font-style: normal;
+    }
+    @media (min-width: 500px) {
+        padding: 0 0 0 1.25rem;
     }
 }
 
