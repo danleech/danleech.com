@@ -4,3 +4,5 @@ description: "I design software, tinker with type, climb mountains and brew coff
 url: http://danleech.com
 permalink: /blog/:year/:month/:day/:title/
 markdown: redcarpet
+sass:
+    style: :compressed
