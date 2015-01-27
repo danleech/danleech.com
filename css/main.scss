@@ -268,3 +268,22 @@ button, input[type="button"] {
         background-position: bottom;
     }
 }
+
+.controls {
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    input {
+        display: block;
+        width: 100%;
+        margin: 0 0 0.75rem;
+        @media (min-width: 1000px) {
+            float: left;
+            display: inline-block;
+            width: auto;
+            margin: 0 0.75rem 1.5rem 0;
+        }
+    }
+}

@@ -6,8 +6,10 @@ layout: page
 <form>
     <textarea id="input" autofocus></textarea>
     <p>Paste text or drop a file into the box above.</p>
-    <input type="button" onclick="encode()" value="Encode" />
-    <input type="button" onclick="decode()" value="Decode" />
+    <div class="controls">
+        <input type="button" onclick="encode()" value="Encode" />
+        <input type="button" onclick="decode()" value="Decode" />
+    </div>
 </form>
 
 <script>
