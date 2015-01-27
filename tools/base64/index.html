@@ -11,8 +11,8 @@ layout: page
 </form>
 
 <script>
-    function encode() {
-        event.preventDefault();
+    function encode(e) {
+        e.preventDefault();
         var input = document.getElementById('input').value;
         input = btoa(input);
         document.getElementById('input').value = input;
@@ -20,8 +20,8 @@ layout: page
         return false;
     }
 
-    function decode() {
-        event.preventDefault();
+    function decode(e) {
+        e.preventDefault();
         var input = document.getElementById('input').value;
         input = atob(input);
         document.getElementById('input').value = input;
@@ -42,8 +42,8 @@ layout: page
     }
 
     fileInput.ondrop = function(e) {
+        e.preventDefault();
         this.className = '';
-        event.preventDefault();
         var file = e.dataTransfer.files[0];
         var reader = new FileReader();
         reader.onload = function (event) {
