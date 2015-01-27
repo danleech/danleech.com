@@ -164,11 +164,11 @@ textarea {
     font-family: inherit;
     font-size: 0.75rem;
     line-height: 0.75rem;
-    transition: all 0.05s linear;
 }
 
 .file-input-hover {
-    background: $grey-dark;
+    background: $blue;
+    color: $blue;
 }
 
 button {

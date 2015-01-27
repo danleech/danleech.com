@@ -4,10 +4,10 @@ layout: page
 ---
 
 <form>
-    <label for="input">Paste input text or drag a file here</label>
-    <textarea id="input"></textarea>
-    <button onclick="encode()">Encode</button>
-    <button onclick="decode()">Decode</button>
+    <textarea id="input" autofocus></textarea>
+    <p>Paste text or drop a file into the box above.</p>
+    <button type="button" onclick="encode()">Encode</button>
+    <button type="button" onclick="decode()">Decode</button>
 </form>
 
 <script>
@@ -33,21 +33,22 @@ layout: page
 
     fileInput.ondragover = function() {
         this.className = 'file-input-hover';
-        return false;
     }
 
     fileInput.ondragend = function() {
         this.className = '';
-        return false;
     }
 
     fileInput.ondrop = function(e) {
         e.preventDefault();
         this.className = '';
+        this.value = 'Encoding file...';
+        this.disabled = 'true';
         var file = e.dataTransfer.files[0];
         var reader = new FileReader();
         reader.onload = function (event) {
             fileInput.value = event.target.result;
+            fileInput.disabled = false;
             document.getElementById('input').select();
         }
         reader.readAsDataURL(file);
