@@ -4,10 +4,10 @@ layout: page
 ---
 
 <form>
-    <textarea id="input" tabindex="0" autofocus></textarea>
+    <textarea id="input" autofocus></textarea>
     <p>Paste text or drop a file into the box above.</p>
-    <button type="button" tabindex="1" onclick="encode()">Encode</button>
-    <button type="button" tabindex="2" onclick="decode()">Decode</button>
+    <input type="button" onclick="encode()" value="Encode" />
+    <input type="button" onclick="decode()" value="Decode" />
 </form>
 
 <script>
@@ -37,7 +37,8 @@ layout: page
         this.className = '';
     }
 
-    fileInput.ondrop = function() {
+    fileInput.ondrop = function(e) {
+        e.preventDefault();
         this.className = '';
         this.value = 'Encoding file...';
         this.disabled = 'true';
