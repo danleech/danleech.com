@@ -4,10 +4,10 @@ layout: page
 ---
 
 <form>
-    <textarea id="input" autofocus></textarea>
+    <textarea id="input" tabindex="0" autofocus></textarea>
     <p>Paste text or drop a file into the box above.</p>
-    <button type="button" onclick="encode()">Encode</button>
-    <button type="button" onclick="decode()">Decode</button>
+    <button type="button" tabindex="1" onclick="encode()">Encode</button>
+    <button type="button" tabindex="2" onclick="decode()">Decode</button>
 </form>
 
 <script>
