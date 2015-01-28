@@ -201,6 +201,9 @@ button, input[type="button"] {
     @media (min-width: 500px) {
         padding: 3rem 0;
     }
+    @media (min-width: 1000px) {
+        padding: 7.5rem 0 3rem;
+    }
 }
 
 .site-main {
