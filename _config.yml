@@ -2,7 +2,7 @@ name: "Dan Leech"
 author: "Dan Leech"
 description: "I design software, tinker with type, climb mountains and brew coffee."
 url: http://danleech.com
-permalink: /blog/:year/:month/:day/:title/
+permalink: /articles/:year/:month/:day/:title/
 markdown: redcarpet
 sass:
     style: :compressed
