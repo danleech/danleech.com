@@ -19,9 +19,8 @@ html {
 }
 
 body {
-    max-width: 36rem;
     margin: 0 auto;
-    padding: 0.75rem;
+    padding: 0;
     background: $white;
     // background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $blue 50%, $blue 100%);
     // background-size: 3rem 3rem;
@@ -39,12 +38,6 @@ body {
        -moz-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
-    @media (min-width: 500px) {
-        padding: 1.5rem 3rem;
-    }
-    @media (min-width: 1000px) {
-        padding: 1.5rem 6rem 0;
-    }
 }
 
 a {
@@ -189,15 +182,24 @@ button, input[type="button"] {
     }
 }
 
+.container {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    @media (min-width: 500px) {
+        padding: 0 1.5rem;
+    }
+    @media (min-width: 1000px) {
+        padding: 0 3rem;
+    }
+}
+
 .site-header {
     padding: 1.5rem 0;
-    background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 2px 2px;
+    background: $grey;
     color: $black;
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-size: 1px 1px;
+    @media (min-width: 500px) {
+        padding: 3rem 0;
     }
 }
 
