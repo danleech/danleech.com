@@ -186,7 +186,7 @@ button, input[type="button"] {
     max-width: 36rem;
     margin: 0 auto;
     padding: 0 0.75rem;
-    @media (min-width: 500px) {
+    @media (min-width: 600px) {
         padding: 0 1.5rem;
     }
     @media (min-width: 1000px) {
@@ -195,14 +195,11 @@ button, input[type="button"] {
 }
 
 .site-header {
-    padding: 3rem 0 1.5rem;
+    padding: 6rem 0 3rem;
     background: $grey;
     color: $black;
     transition: padding 0.05s linear;
-    @media (min-width: 500px) {
-        padding: 6rem 0 3rem;
-    }
-    @media (min-width: 1000px) {
+    @media (min-width: 600px) {
         padding: 7.5rem 0 3rem;
     }
 }
