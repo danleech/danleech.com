@@ -4,7 +4,7 @@ layout: page
 ---
 
 <form>
-    <textarea id="input" autofocus></textarea>
+    <textarea id="input" spellcheck="false" autofocus></textarea>
     <p>Paste text or drop a file into the box above.</p>
     <div class="controls">
         <input type="button" onclick="encode()" value="Encode" />
@@ -14,42 +14,46 @@ layout: page
 
 <script>
     function encode() {
-        var input = document.getElementById('input').value;
+        var input = document.getElementById("input").value;
         input = btoa(input);
-        document.getElementById('input').value = input;
-        document.getElementById('input').select();
+        document.getElementById("input").value = input;
+        document.getElementById("input").select();
         return false;
     }
 
     function decode() {
-        var input = document.getElementById('input').value;
-        input = atob(input);
-        document.getElementById('input').value = input;
-        document.getElementById('input').select();
-        return false;
+        var input = document.getElementById("input").value;
+        if (input.substring(0, 4) == "data") {
+            window.open(input, "_blank");
+        } else {
+            input = atob(input);
+            document.getElementById("input").value = input;
+            document.getElementById("input").select();
+            return false;
+        }
     }
 
-    var fileInput = document.getElementById('input');
+    var fileInput = document.getElementById("input");
 
     fileInput.ondragover = function() {
-        this.className = 'file-input-hover';
+        this.className = "file-input-hover";
     }
 
     fileInput.ondragend = function() {
-        this.className = '';
+        this.className = "";
     }
 
     fileInput.ondrop = function(e) {
         e.preventDefault();
-        this.className = '';
-        this.value = 'Encoding file...';
-        this.disabled = 'true';
+        this.className = "";
+        this.value = "Encoding file...";
+        this.disabled = "true";
         var file = e.dataTransfer.files[0];
         var reader = new FileReader();
         reader.onload = function (event) {
             fileInput.value = event.target.result;
             fileInput.disabled = false;
-            document.getElementById('input').select();
+            document.getElementById("input").select();
         }
         reader.readAsDataURL(file);
         return false;
