@@ -1,7 +1,7 @@
 name: "Dan Leech"
 author: "Dan Leech"
 description: "I design software, tinker with type, climb mountains and brew coffee."
-url: http://danleech.com
+url: https://danleech.com
 permalink: /articles/:year/:month/:day/:title/
 markdown: redcarpet
 sass:
