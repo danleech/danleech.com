@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header class="site-header" role="banner">
+    <header class="site-header {% if page.layout == "page" %}site-header--page{% endif %}" role="banner">
         <div class="container">
             <p class="introduction">Hi. I’m <a href="/">{{ site.author }}</a>. {{ site.description }} Follow me on <a href="https://twitter.com/d_leech">Twitter</a> and <a href="https://github.com/danleech">GitHub</a>.</p>
         </div>

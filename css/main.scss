@@ -204,6 +204,14 @@ button, input[type="button"] {
     }
 }
 
+.site-header--page {
+    @extend .site-header;
+    padding: 3rem 0;
+    @media (min-width: 600px) {
+        padding: 3rem 0;
+    }
+}
+
 .site-main {
     padding: 0 0 3rem;
     background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
