@@ -198,7 +198,6 @@ button, input[type="button"] {
     padding: 3rem 0;
     background: $blue;
     color: $black;
-    transition: padding 0.2s linear;
     a {
         &:focus, &:hover {
             color: $white;
