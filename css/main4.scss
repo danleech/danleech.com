@@ -2,7 +2,7 @@
 ---
 
 $black:     #131310;
-$blue:      #CEF;
+$blue:      #6CE;
 $grey:      #EEE;
 $grey-dark: #434340;
 $red:       #F22;
@@ -196,9 +196,13 @@ button, input[type="button"] {
 
 .site-header {
     padding: 3rem 0;
-    background: $grey;
+    background: $blue;
     color: $black;
     transition: padding 0.2s linear;
+    a {
+        color: $white;
+        background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $white 50%, $white 100%);
+    }
 }
 
 .site-header--home {
