@@ -10,10 +10,10 @@ $white:     #FFF;
 
 html {
     font-size: 16px;
-    @media (min-width: 600px) {
+    @media (min-width: 800px) {
         font-size: 18px;
     }
-    @media (min-width: 1000px) {
+    @media (min-width: 1200px) {
         font-size: 20px;
     }
 }
@@ -209,10 +209,7 @@ button, input[type="button"] {
 
 .site-header--home {
     @extend .site-header;
-    padding: 6rem 0 3rem;
-    @media (min-width: 600px) {
-        padding: 9rem 0 3rem;
-    }
+    padding: 9rem 0 3rem;
 }
 
 .site-main {
