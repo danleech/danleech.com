@@ -8,7 +8,6 @@
     <title>{% if page.title != 'Homepage' %}{{ page.title }} — {% endif %}{{ site.name }}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="//cloud.typography.com/7437472/747866/css/fonts.css">
     <style>{% capture styles %}{% include styles.scss %}{% endcapture %}{{ styles | scssify }}</style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="http://danleech.com/feed/">
 </head>
