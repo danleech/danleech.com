@@ -7,10 +7,10 @@ layout: page
 {% assign getLinkPosts = site.posts | where:"linkpost","true" %}
 {% assign getPages = site.pages | where:"layout","page" %}
 
-{% assign postCount = getPosts.size %}
-{% assign linkPostCount = getLinkPosts.size %}
-{% assign articleCount = postCount | minus: linkPostCount %}
-{% assign pageCount = getPages.size %}
+{% assign postsCount = getPosts.size %}
+{% assign linkPostsCount = getLinkPosts.size %}
+{% assign articlesCount = postsCount | minus: linkPostsCount %}
+{% assign pagesCount = getPages.size %}
 
 {% assign postsWordCount = 0 %}
 {% assign longestWordCount = 0 %}
@@ -22,9 +22,9 @@ layout: page
     {% endif %}
 {% endfor %}
 
-{% assign averageWordCount = postsWordCount | divided_by:postCount %}
+{% assign averageWordCount = postsWordCount | divided_by:postsCount %}
 
-- This site has **{{ postCount }}** posts (**{{ articleCount }}** articles and **{{ linkPostCount }}** link posts) and **{{ pageCount }}** pages.
+- This site has **{{ postsCount }}** posts (**{{ articlesCount }}** articles and **{{ linkPostsCount }}** link posts) and **{{ pagesCount }}** pages.
 - Posts contain a total of **{{ postsWordCount }}** words.
 - That’s an average of **{{ averageWordCount }}** words per post.
 - The longest post is **{{ longestWordCount }}** words.
