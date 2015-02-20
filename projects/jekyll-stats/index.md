@@ -7,14 +7,11 @@ layout: page
 {% assign getLinkPosts = site.posts | where:"linkpost","true" %}
 {% assign getPages = site.pages | where:"layout","page" %}
 
-<!-- Get number of posts and pages -->
 {% assign postCount = getPosts.size %}
 {% assign linkPostCount = getLinkPosts.size %}
 {% assign articleCount = postCount | minus: linkPostCount %}
 {% assign pageCount = getPages.size %}
 
-
-<!-- Get posts word count and longest post word count -->
 {% assign postsWordCount = 0 %}
 {% assign longestWordCount = 0 %}
 {% for posts in getPosts %}
@@ -25,7 +22,6 @@ layout: page
     {% endif %}
 {% endfor %}
 
-<!-- Get average post word count -->
 {% assign averageWordCount = postsWordCount | divided_by:postCount %}
 
 - This site has **{{ postCount }}** posts (**{{ articleCount }}** articles and **{{ linkPostCount }}** link posts) and **{{ pageCount }}** pages.
