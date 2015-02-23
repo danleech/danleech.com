@@ -29,4 +29,4 @@ layout: page
 - That’s an average of **{{ averageWordCount }}** words per post.
 - The longest post is **{{ longestWordCount }}** words.
 
-Get the liquid markup that generates these stats on [GitHub](https://raw.githubusercontent.com/danleech/danleech.com/gh-pages/projects/jekyll-stats/index.md).
+Get the Liquid markup that generates these stats on [GitHub](https://raw.githubusercontent.com/danleech/danleech.com/gh-pages/projects/jekyll-stats/index.md).
