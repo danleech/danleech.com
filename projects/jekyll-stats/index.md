@@ -28,6 +28,5 @@ layout: page
 - Posts contain a total of **{{ postsWordCount }}** words.
 - That’s an average of **{{ averageWordCount }}** words per post.
 - The longest post is **{{ longestWordCount }}** words.
-- {{ 491584.51 | thousands_separated }} is a large number for testing comma separation.
 
 Get the liquid markup that generates these stats on [GitHub](https://raw.githubusercontent.com/danleech/danleech.com/gh-pages/projects/jekyll-stats/index.md).
