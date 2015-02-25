@@ -5,7 +5,7 @@ layout: post
 ---
 
 <figure>
-    <a href="/projects/visited-countries">
+    <a href="/projects/visited-countries/">
         <img src="/images/visited-countries-small.png" srcset="/images/visited-countries-medium.png 1x, /images/visited-countries-large.png 2x" alt="World map with countries that I have visited highlighted">
     </a>
     <figcaption>Plenty left still to explore.</figcaption>
@@ -15,4 +15,4 @@ layout: post
 
 I wanted my map to be fast, statically hosted on this site, and I wanted all graphics to be vector-based. I used the excellent (albeit [Mercator](http://en.wikipedia.org/wiki/Mercator_projection)) SVG map of the world from [amCharts](http://www.amcharts.com/svg-maps), which includes country paths with two-letter country code IDs that make styling using CSS really easy. With the help of CloudFlare’s GZIP compression the high-definition map weighs less than 500KB.
 
-Take a look at [my map](/projects/visited-countries) or grab the [page source](https://raw.githubusercontent.com/danleech/danleech.com/gh-pages/projects/visited-countries/index.html) and make your own.
+Take a look at [my map](/projects/visited-countries/) or grab the [page source](https://raw.githubusercontent.com/danleech/danleech.com/gh-pages/projects/visited-countries/index.html) and make your own.

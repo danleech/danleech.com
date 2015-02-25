@@ -3,7 +3,7 @@ title: "Projects"
 layout: page
 ---
 
-- [Base64 Encoder & Decoder](/projects/base64)
-- [Jekyll Stats](/projects/jekyll-stats)
-- [Solid PNG Generator](/projects/png-generator)
-- [Visited Countries](/projects/visited-countries)
+- [Base64 Encoder & Decoder](/projects/base64/)
+- [Jekyll Stats](/projects/jekyll-stats/)
+- [Solid PNG Generator](/projects/png-generator/)
+- [Visited Countries](/projects/visited-countries/)
