@@ -4,7 +4,7 @@ date: "2015-02-24T10:16Z"
 layout: post
 ---
 
-These are the websites of parliamentary candidates competing for the [Bath constituency](http://en.wikipedia.org/wiki/Bath_(UK_Parliament_constituency)) seat in the 2015 general election.
+These are the websites of parliamentary candidates competing to become the Member of Parliament (MP) for the [Bath constituency](http://en.wikipedia.org/wiki/Bath_(UK_Parliament_constituency)) in the 2015 general election. [Don Foster](http://www.donfoster.co.uk) (Liberal Democrat), Bath’s MP for the last 23 years, is retiring.
 
 - [Ben Howlett](http://www.ben4bath.co.uk) (Conservative)
 - [Dominic Tristram](http://www.dominictristram.com) (Green)
