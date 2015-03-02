@@ -42,13 +42,43 @@ layout: page
                 width = 8192;
                 height = 4608;
                 break;
+            case "imac":
+                width = 2560;
+                height = 1440;
+                break;
             case "ipad":
+            case "ipad2":
+            case "ipad3":
+            case "ipad4":
+            case "ipadair":
+            case "ipadair2":
+            case "ipadmini":
+            case "ipadmini2":
+            case "ipadmini3":
                 width = 2048;
                 height = 2048;
                 break;
+            case "iphone":
+            case "iphone3g":
+            case "iphone3gs":
+            case "iphone4":
+            case "iphone4s":
+                width = 320;
+                height = 480;
+                break;
+            case "iphone5":
+            case "iphone5c":
+            case "iphone5s":
+                width = 320;
+                height = 468;
             case "iphone6":
                 width = 750;
                 height = 1334;
+                break;
+            case "iphone6+":
+            case "iphone6plus":
+                width = 1242;
+                height = 2208;
                 break;
             default:
                 var validformat = /\d+(\*|x|by)\d+/;
