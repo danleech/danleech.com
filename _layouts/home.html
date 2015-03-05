@@ -15,7 +15,7 @@
                     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }}{% assign cardinal = post.date | date: "%-d" %}{% case cardinal %}{% when "1" or "21" or "31" %}st{% when "2" or "22" %}nd{% when "3" or "23" %}rd{% else %}th{% endcase %} {{ post.date | date: "%B %Y"}}</time>
                 </header>
                 {{ post.content }}
-            <article>{% endif %}{% endfor %}
+            </article>{% endif %}{% endfor %}
         </main>
     </div>
 {% include footer.html %}
