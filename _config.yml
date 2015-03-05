@@ -5,4 +5,4 @@ url: http://danleech.com
 permalink: /articles/:title/
 markdown: redcarpet
 sass:
-    style: :compressed
+    style: compressed
