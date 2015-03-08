@@ -6,7 +6,7 @@ layout: post
 
 <figure>
     <a href="/projects/visited-countries/">
-        <img src="/images/visited-countries-small.png" srcset="/images/visited-countries-medium.png 1x, /images/visited-countries-large.png 2x" alt="World map with countries that I have visited highlighted">
+        <img src="/images/visited-countries-large.png" srcset="/images/visited-countries-medium.png 1x, /images/visited-countries-large.png 2x" alt="World map with countries that I have visited highlighted">
     </a>
     <figcaption>Plenty left still to explore.</figcaption>
 </figure>

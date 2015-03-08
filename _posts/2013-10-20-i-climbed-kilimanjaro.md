@@ -6,7 +6,7 @@ layout: post
 
 <figure>
     <a href="/images/kilimanjaro-full.jpg">
-        <img src="/images/kilimanjaro-small.jpg" srcset="/images/kilimanjaro-medium.jpg 1x, /images/kilimanjaro-large.jpg 2x" alt="Photo of Robert and Dan at the summit of Mount Kilimanjaro">
+        <img src="/images/kilimanjaro-large.jpg" srcset="/images/kilimanjaro-medium.jpg 1x, /images/kilimanjaro-large.jpg 2x" alt="Photo of Robert and Dan at the summit of Mount Kilimanjaro">
     </a>
     <figcaption>Robert and me proudly holding the <a href="https://www.google.co.uk/?q=translate+sursum+aliquantulus">Sursum Aliquantulus</a> flag.</figcaption>
 </figure>
