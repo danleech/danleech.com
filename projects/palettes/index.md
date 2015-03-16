@@ -9,7 +9,6 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 - #009CDB
 - #0E6A8E
-- #FFFFFF
 - #F3F3F3
 - #ADAFB1
 - #363636
@@ -18,7 +17,6 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 - #26C6DA
 - #FF2222
-- #FFFFFF
 - #EEEEEE
 - #434340
 - #131310
@@ -27,21 +25,18 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 - #5AB552
 - #2E9625
-- #FFFFFF
 - #D3DBE3
 - #435261
 
 ## mAbstalk.com
 
 - #1566FF
-- #FFFFFF
 - #4C4E51
 - #404144
 
 ## Microgenetics
 
 - #FF0000
-- #FFFFFF
 - #000000
 
 ## Sentia Yoga
@@ -50,11 +45,10 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 - #009245
 - #39B54A
 - #8CC63F
-- #FFFFFF
 - #414440
 
 <style>
-.site-main ul {
+/*.site-main ul {
     margin: -0.375rem;
     padding: 0;
     list-style: none;
@@ -70,17 +64,34 @@ These are colour palettes for projects I’m working on. They’re invaluable to
     width: calc(50% - 0.75rem);
     margin: 0.375rem;
     text-align: center;
-    line-height: 7.5rem;
+    line-height: 4.5rem;
 }
 @media (min-width: 500px) {
     .site-main li {
         width: calc(33.333% - 0.75rem);
     }
+}*/
+.site-main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 @media (min-width: 600px) {
-    .site-main li {
-        width: calc(20% - 0.75rem);
+    .site-main ul {
+        display: -webkit-flex;
+        display:     -ms-flex;
+        display:         flex;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
+}
+.site-main li {
+    -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+    font-size: 0.75rem;
+    line-height: 4.5rem;
+    text-align: center;
 }
 </style>
 
