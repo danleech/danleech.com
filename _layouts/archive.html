@@ -1,0 +1,22 @@
+{% include header.html %}
+    <div class="container">
+        <main class="site-main" role="main">
+            <article class="article--page">
+                <header>
+                    <h1>Articles</h1>
+                </header>
+                <ul class="articles-list">{% for post in site.posts %}
+                    <li class="article-list__item">
+                    {% if post.linkpost == "true" %}
+                        <a href="{{ post.link }}">{{ post.title }}</a>
+                        <a href="{{ post.url }}" class="permalink">Permalink</a>
+                    {% else %}
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    {% endif %}
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d" }}{% assign cardinal = post.date | date: "%-d" %}{% case cardinal %}{% when "1" or "21" or "31" %}st{% when "2" or "22" %}nd{% when "3" or "23" %}rd{% else %}th{% endcase %} {{ post.date | date: "%B %Y"}}</time>
+                    </li>{% endfor %}
+                </ul>
+            </article>
+        </main>
+    </div>
+{% include footer.html %}

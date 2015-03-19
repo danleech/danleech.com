@@ -163,21 +163,23 @@ textarea {
     color: $blue;
 }
 
-button, input[type="button"], input[type="submit"] {
+button, input[type="button"], input[type="submit"], a.btn {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
     margin: 0 0 1.5rem;
-    padding: 0.75rem 1.5rem;
-    background: $black;
-    color: $white;
-    border: none;
+    padding: 0.625rem 1.125rem;
+    background: $white;
+    color: $black;
+    border: 0.125rem solid $black;
     border-radius: 0.25rem;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+    cursor: pointer;
     &:focus, &:hover {
-        background: $red;
+        border-color: $red;
+        color: $red;
     }
 }
 
@@ -294,4 +296,25 @@ button, input[type="button"], input[type="submit"] {
             margin: 0 0.75rem 1.5rem 0;
         }
     }
+}
+
+.articles-list {
+    margin: 1.5rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.article-list__item {
+    margin: 1.5rem 0;
+    a {
+        font-weight: 700;
+    }
+    time {
+        display: block;
+        font-size: 0.75rem;
+    }
+}
+
+.c2a {
+    margin: 4.5rem 0 1.5rem;
 }
