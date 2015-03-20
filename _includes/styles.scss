@@ -168,18 +168,16 @@ button, input[type="button"], input[type="submit"], a.btn {
        -moz-appearance: none;
             appearance: none;
     margin: 0 0 1.5rem;
-    padding: 0.625rem 1.125rem;
-    background: $white;
-    color: $black;
-    border: 0.125rem solid $black;
+    padding: 0.75rem 1.5rem;
+    background: $black;
+    color: $white;
     border-radius: 0.25rem;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     cursor: pointer;
     &:focus, &:hover {
-        border-color: $red;
-        color: $red;
+        background: $red;
     }
 }
 
@@ -316,5 +314,5 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .c2a {
-    margin: 4.5rem 0 1.5rem;
+    margin: 6rem 0 1.5rem;
 }
