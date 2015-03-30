@@ -1,1 +1,3 @@
 User-agent: *
+
+Sitemap: http://danleech.com/sitemap.xml
