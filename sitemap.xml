@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://danleech.com</loc>
+		<loc>http://danleech.com/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>http://danleech.com/articles</loc>
+		<loc>http://danleech.com/articles/</loc>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
     </url>
     <url>
-        <loc>http://danleech.com/projects</loc>
+        <loc>http://danleech.com/projects/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>http://danleech.dev/projects/base64</loc>
+        <loc>http://danleech.dev/projects/base64/</loc>
         <changefreq>weekly</changefreq>
-        <priority>2</priority>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://danleech.com/projects/jekyll-stats</loc>
+        <loc>http://danleech.com/projects/jekyll-stats/</loc>
         <changefreq>weekly</changefreq>
-        <priority>2</priority>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://danleech.com/projects/palettes</loc>
+        <loc>http://danleech.com/projects/palettes/</loc>
         <changefreq>weekly</changefreq>
-        <priority>2</priority>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://danleech.com/projects/png-generator</loc>
+        <loc>http://danleech.com/projects/png-generator/</loc>
         <changefreq>weekly</changefreq>
-        <priority>2</priority>
+        <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://danleech.com/projects/visited-countries</loc>
+        <loc>http://danleech.com/projects/visited-countries/</loc>
         <changefreq>weekly</changefreq>
-        <priority>2</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>
