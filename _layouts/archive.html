@@ -2,9 +2,6 @@
     <div class="container">
         <main class="site-main" role="main">
             <article class="article--page">
-                <header>
-                    <h1>Articles</h1>
-                </header>
                 <ul class="articles-list">{% for post in site.posts %}
                     <li class="article-list__item">
                     {% if post.linkpost == "true" %}
