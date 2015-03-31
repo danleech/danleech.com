@@ -45,3 +45,5 @@ These are links to the official James Bond films in the UK iTunes Store.
         }
     }
 </style>
+
+<script>var _merchantSettings=_merchantSettings||[];_merchantSettings.push(["AT","1001lds"]),function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https:"==document.location.protocol?"https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js":"http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();</script>
