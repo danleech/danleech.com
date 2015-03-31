@@ -3,7 +3,7 @@ title: "Bond Films"
 layout: page
 ---
 
-Get [Bond 50: The Complete 23 Film Collection](https://itunes.apple.com/gb/movie-collection/id948985270) or use links below to get individual films. All links are for the UK iTunes Store.
+Buy [Bond 50: The Complete 23 Film Collection](https://itunes.apple.com/gb/movie-collection/id948985270) or use links below to buy individual films. All links are to the UK iTunes Store.
 
 - [Dr. No](https://itunes.apple.com/gb/movie/id561630851) (1962)
 - [From Russia With Love](https://itunes.apple.com/gb/movie/id561579653) (1963)
