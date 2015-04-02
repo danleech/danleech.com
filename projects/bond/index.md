@@ -3,8 +3,6 @@ title: "Bond Films"
 layout: page
 ---
 
-Buy [Bond 50: The Complete 23 Film Collection](https://itunes.apple.com/gb/movie-collection/id948985270) or use links below to buy individual films. All links are to the UK iTunes Store.
-
 - [Dr. No](https://itunes.apple.com/gb/movie/id561630851) (1962)
 - [From Russia With Love](https://itunes.apple.com/gb/movie/id561579653) (1963)
 - [Goldfinger](https://itunes.apple.com/gb/movie/id561631210) (1964)
@@ -31,6 +29,9 @@ Buy [Bond 50: The Complete 23 Film Collection](https://itunes.apple.com/gb/movie
 - Spectre (2015)
 
 <style>
+    .container {
+        max-width: 100%;
+    }
     ul {
         margin: 1.5rem 0;
         padding: 0;
@@ -42,6 +43,20 @@ Buy [Bond 50: The Complete 23 Film Collection](https://itunes.apple.com/gb/movie
             -webkit-column-count: 2;
                -moz-column-count: 2;
                     column-count: 2;
+        }
+    }
+    @media (min-width: 900px) {
+        ul {
+            -webkit-column-count: 3;
+               -moz-column-count: 3;
+                    column-count: 3;
+        }
+    }
+    @media (min-width: 1100px) {
+        ul {
+            -webkit-column-count: 4;
+               -moz-column-count: 4;
+                    column-count: 4;
         }
     }
 </style>
