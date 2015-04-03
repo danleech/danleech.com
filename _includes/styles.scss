@@ -215,7 +215,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 
 .site-title {
     margin: 0;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     @media (min-width: 600px) {
         float: left;
@@ -225,6 +225,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 .site-nav {
     margin: 0;
     padding: 0;
+    font-size: 0.75rem;
     list-style: none;
     @media (min-width: 600px) {
         float: right;
