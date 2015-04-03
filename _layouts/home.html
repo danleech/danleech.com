@@ -1,4 +1,9 @@
 {% include header.html %}
+    <div class="introduction">
+        <div class="container">
+            <p>Hi, I’m Dan Leech. I design software, tinker with type, climb mountains and brew coffee.</p>
+        </div>
+    </div>
     <div class="container">
         <main class="site-main" role="main">{% for post in site.posts limit:5 %}
             {% if post.linkpost == "true" %}<article class="article--link">
