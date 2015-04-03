@@ -32,28 +32,28 @@ layout: page
     .container {
         max-width: 100%;
     }
-    ul {
+    main ul {
         margin: 1.5rem 0;
         padding: 0;
         font-size: 0.75rem;
         list-style: none;
     }
     @media (min-width: 700px) {
-        ul {
+        main ul {
             -webkit-column-count: 2;
                -moz-column-count: 2;
                     column-count: 2;
         }
     }
     @media (min-width: 900px) {
-        ul {
+        main ul {
             -webkit-column-count: 3;
                -moz-column-count: 3;
                     column-count: 3;
         }
     }
     @media (min-width: 1100px) {
-        ul {
+        main ul {
             -webkit-column-count: 4;
                -moz-column-count: 4;
                     column-count: 4;

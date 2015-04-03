@@ -195,14 +195,47 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .site-header {
-    padding: 3rem 0;
+    padding: 1.5rem 0;
     background: $grey;
     color: $black;
+    text-align: center;
+    a {
+        background-image: none;
+    }
+    &:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+    @media (min-width: 600px) {
+        text-align: left;
+    }
 }
 
-.site-header--home {
-    @extend .site-header;
-    padding: 9rem 0 3rem;
+.site-title {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    @media (min-width: 600px) {
+        float: left;
+    }
+}
+
+.site-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @media (min-width: 600px) {
+        float: right;
+    }
+}
+
+.site-nav__item {
+    display: inline-block;
+    margin: 0 0.375rem;
+    @media (min-width: 600px) {
+        margin: 0 0 0 0.75rem;
+    }
 }
 
 .site-main {
@@ -220,20 +253,6 @@ button, input[type="button"], input[type="submit"], a.btn {
     margin: 1.5rem 0 0;
     color: $black;
     font-size: 0.75rem;
-}
-
-.introduction {
-    max-width: 27rem;
-    margin: 0;
-    a {
-        &:first-child {
-            background-image: none;
-            font-weight: 700;
-            &:focus, &:hover {
-                background-image: none;
-            }
-        }
-    }
 }
 
 .article--text {
