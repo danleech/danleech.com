@@ -4,15 +4,18 @@ date: 2015-04-08T10:30Z
 layout: post
 ---
 
-UK/Bath’s Maxwell Colonna-Dashwood is competing in the 2015 World Barista Championship in Seattle this weekend. Here’s the schedule (all times are GMT+1, eight hours ahead of PDT) and links to the live stream provided by [World Coffee Events](http://livestream.com/worldcoffee).
+UK/Bath’s Maxwell Colonna-Dashwood is competing in the 2015 World Barista Championship in Seattle this weekend. Here’s the [schedule](http://www.worldbaristachampionship.org/2015-schedules/) and links to the live stream provided by [World Coffee Events](http://livestream.com/worldcoffee).
 
 ## Key Times
+
 - Thursday 8:15pm: *Max’s Round 1 performance*
 - Saturday 1am: *Semifinalist Announcement*
 - Saturday 6pm–11pm: *Semifinals Round*
 - Saturday 11:30pm: *Finalist Announcement*
 - Sunday 7:30pm–11pm: *Finals Round*
 - Sunday 11:30pm: *Awards Ceremony*
+
+All times listed here are GMT+1, eight hours ahead of PDT.
 
 ## Live Stream Links
 
