@@ -21,6 +21,11 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>http://danleech.com/projects/bond/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>http://danleech.com/projects/jekyll-stats/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
