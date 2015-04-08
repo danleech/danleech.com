@@ -21,3 +21,9 @@ UK/Bath’s Maxwell Colonna-Dashwood is competing in the 2015 World Barista Cham
 - [Semifinals (Saturday)](http://livestream.com/worldcoffee/events/3952875)
 - [Finals (Sunday)](http://livestream.com/worldcoffee/events/3952880)
 - [Awards Ceremony (Sunday)](http://livestream.com/worldcoffee/events/3952885)
+
+## More Coverage
+
+- [Sprudge Live](http://sprudgelive.com)
+- [Sprudge Live on Twitter](https://twitter.com/SprudgeLive)
+- [#WBC2015 on Twitter](https://twitter.com/search?q=WBC2015)
