@@ -8,7 +8,7 @@ UK/Bath’s Maxwell Colonna-Dashwood is competing in the 2015 World Barista Cham
 
 ## Key Times
 
-- Thursday 8:15pm: *Max’s Round 1 performance*
+- [Thursday 8:15pm: *Max’s Round 1 performance*](http://livestream.com/worldcoffee/events/3952840/videos/83361396)
 - Saturday 1am: *Semifinalist Announcement*
 - Saturday 6pm–11pm: *Semifinals Round*
 - Saturday 11:30pm: *Finalist Announcement*
