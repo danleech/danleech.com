@@ -19,7 +19,7 @@ All times listed here are GMT+1, eight hours ahead of PDT.
 
 ## Live Stream Links
 
-- [Round 1 Day 1 (Thursday)](http://livestream.com/worldcoffee/events/3952840)
+- [Round 1 Day 1 (Thursday)](http://livestream.com/worldcoffee/events/3952840/videos)
 - [Round 1 Day 2 (Friday)](http://livestream.com/worldcoffee/events/3952873)
 - [Semifinals (Saturday)](http://livestream.com/worldcoffee/events/3952875)
 - [Finals (Sunday)](http://livestream.com/worldcoffee/events/3952880)
