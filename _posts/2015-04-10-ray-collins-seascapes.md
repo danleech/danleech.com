@@ -6,4 +6,4 @@ linkpost: "true"
 link: "http://raycollinsphoto.com/collections/store"
 ---
 
-The lighting in some of these seascape photos make the waves appear mountainous; opaque and stationary. Our planet carries breathtaking beauty.
+The lighting in some of these seascape photos make the waves appear mountainous; opaque and unmoving. Our planet carries breathtaking beauty.
