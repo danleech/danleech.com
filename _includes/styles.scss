@@ -1,5 +1,6 @@
 $black:       #131310;
 $blue:        #26C6DA;
+$green:       #195;
 $grey:        #D9D9D6;
 $grey-dark:   #434340;
 $grey-light:  #EEE;
@@ -153,6 +154,17 @@ header {
         color: $grey-dark;
         font-size: 0.75rem;
         line-height: 1.5rem;
+    }
+}
+
+ins {
+    display: block;
+    margin: 1.5rem 0;
+    color: $green;
+    font-style: italic;
+    text-decoration: none;
+    em {
+        font-style: normal;
     }
 }
 

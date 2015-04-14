@@ -6,7 +6,7 @@ layout: post
 
 UK/Bath’s Maxwell Colonna-Dashwood is competing in the 2015 World Barista Championship in Seattle this weekend. Here’s the [schedule](http://www.worldbaristachampionship.org/2015-schedules/) and links to the live stream provided by [World Coffee Events](http://livestream.com/worldcoffee).
 
-> Update: I’ve changed links to point to videos instead of live streams.
+<ins datetime="2015-04-13T09:00Z">I’ve updated links to point to videos instead of live streams. Follow links to the live stream events to see the whole competition.</ins>
 
 ## Video Links
 
