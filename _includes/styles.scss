@@ -1,6 +1,5 @@
 $black:       #131310;
 $blue:        #26C6DA;
-$green:       #195;
 $grey:        #D9D9D6;
 $grey-dark:   #434340;
 $grey-light:  #EEE;
@@ -160,9 +159,11 @@ header {
 ins {
     display: block;
     margin: 1.5rem 0;
-    color: $green;
-    font-style: italic;
+    font-weight: 600;
     text-decoration: none;
+    &:before {
+        content: "Update: ";
+    }
     em {
         font-style: normal;
     }
