@@ -8,31 +8,33 @@ description: "A base64 encoder and decoder that works on text snippets and files
     <textarea id="input" spellcheck="false" autofocus></textarea>
     <p>Paste text or drop a file into the box above.</p>
     <div class="controls">
-        <input type="submit" onclick="encode()" value="Encode" />
+        <input type="button" onclick="encode()" value="Encode" />
         <input type="button" onclick="decode()" value="Decode" />
     </div>
 </form>
 
 <script>
     function encode() {
-        var input = document.getElementById("input").value;
-        document.getElementById("input").value = "Encoding...";
-        input = btoa(input);
-        document.getElementById("input").value = input;
-        document.getElementById("input").select();
+        var input = document.getElementById("input");
+        var raw = input.value;
+        input.value = "Encoding…";
+        encoded = btoa(raw);
+        input.value = encoded;
+        input.select();
         return false;
     }
 
     function decode() {
-        var input = document.getElementById("input").value;
-        document.getElementById("input").value = "Decoding...";
-        if (input.substring(0, 4) == "data") {
-            window.open(input, "_blank");
-            document.getElementById("input").value = "File opened in a new window.";
+        var input = document.getElementById("input");
+        var raw = input.value;
+        input.value = "Decoding…";
+        if (raw.substring(0, 4) == "data") {
+            window.open(raw, "_blank");
+            input.value = "File opened in a new window.";
         } else {
-            input = atob(input);
-            document.getElementById("input").value = input;
-            document.getElementById("input").select();
+            decoded = atob(raw);
+            input.value = decoded;
+            input.select();
             return false;
         }
     }
@@ -50,7 +52,7 @@ description: "A base64 encoder and decoder that works on text snippets and files
     fileInput.ondrop = function(e) {
         e.preventDefault();
         this.className = "";
-        this.value = "Encoding...";
+        this.value = "Encoding…";
         this.disabled = "true";
         var file = e.dataTransfer.files[0];
         var reader = new FileReader();
