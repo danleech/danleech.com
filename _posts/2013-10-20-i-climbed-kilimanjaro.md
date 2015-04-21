@@ -3,7 +3,7 @@ title: "I Climbed Kilimanjaro"
 date: "2013-10-20T12:00Z"
 layout: post
 description: "A photo of me at the summit of Mount Kilimanjaro"
-image: images/kilimanjaro-large.jpg
+image: /images/kilimanjaro-large.jpg
 ---
 
 <figure>

@@ -3,7 +3,7 @@ title: "Visited Countries"
 date: "2015-02-19T21:40Z"
 layout: post
 description: "Introducing a project to map countries I have visited"
-image: images/visited-countries-large.png
+image: /images/visited-countries-large.png
 ---
 
 <figure>
