@@ -2,6 +2,7 @@
 title: "Bath Parliamentary Candidates"
 date: "2015-02-24T10:16Z"
 layout: post
+description: "Links to websites for Bath’s prospective MPs"
 ---
 
 These are the websites of parliamentary candidates competing to become the Member of Parliament (<abbr title="Member of Parliament">MP</abbr>) for the [Bath constituency](http://en.wikipedia.org/wiki/Bath_(UK_Parliament_constituency)) in the 2015 general election. [Don Foster](http://www.donfoster.co.uk) (Liberal Democrat), Bath’s <abbr title="Member of Parliament">MP</abbr> for the last 23 years, is retiring.

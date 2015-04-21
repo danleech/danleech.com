@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="dns-prefetch" href="//cloud.typography.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
-    <title>{% if page.title != 'Homepage' %}{{ page.title }} — {% endif %}{{ site.name }}</title>
+    <title>{% if page.title == "Homepage" %}{{ site.name }}{% else %}{{ page.title }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description == null %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
     <meta name="keywords" content="{{ site.keywords }}">
+
+    <meta property="og:title" content="{% if page.title == "Homepage" %}{{ site.name }}{% else %}{{ page.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description == null %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{% if page.image == null %}{{ site.image }}{% else %}{{ page.image }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    {% if page.layout == "post" %}
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="{{ site.author }}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" sizes="300x300" href="/apple-touch-icon.png">
+
     <style>{% capture styles %}{% include styles.scss %}{% endcapture %}{{ styles | scssify }}</style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed/">
 </head>

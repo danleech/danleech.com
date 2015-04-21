@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 layout: page
+description: "A list of projects and tools"
+permalink: projects/
 ---
 
 - [Base64 Encoder & Decoder](/projects/base64/)
