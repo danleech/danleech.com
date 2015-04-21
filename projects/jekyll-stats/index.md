@@ -1,6 +1,7 @@
 ---
 title: "Jekyll Stats"
 layout: page
+description: "Automatically updated stats for this Jekyll site"
 ---
 
 {% assign getPosts = site.posts %}

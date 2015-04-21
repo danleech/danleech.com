@@ -1,6 +1,7 @@
 ---
 title: "Palettes"
 layout: page
+description: "Colour palettes for projects"
 ---
 
 These are colour palettes for projects I’m working on. They’re invaluable to me, but probably useless to everyone else.
