@@ -5,8 +5,7 @@ description: "A base64 encoder and decoder that works on text snippets and files
 ---
 
 <form>
-    <textarea id="input" spellcheck="false" autofocus></textarea>
-    <p>Paste text or drop a file into the box above.</p>
+    <textarea id="input" spellcheck="false" autofocus>Paste text or drop a file into the box above.</textarea>
     <div class="controls">
         <input type="button" onclick="encode()" value="Encode" />
         <input type="button" onclick="decode()" value="Decode" />
@@ -39,17 +38,19 @@ description: "A base64 encoder and decoder that works on text snippets and files
         }
     }
 
-    var fileInput = document.getElementById("input");
+    var inputArea = document.getElementById("input");
 
-    fileInput.ondragover = function() {
+    inputArea.select();
+
+    inputArea.ondragover = function() {
         this.className = "file-input-hover";
     }
 
-    fileInput.ondragend = function() {
+    inputArea.ondragend = function() {
         this.className = "";
     }
 
-    fileInput.ondrop = function(e) {
+    inputArea.ondrop = function(e) {
         e.preventDefault();
         this.className = "";
         this.value = "Encoding…";
@@ -57,8 +58,8 @@ description: "A base64 encoder and decoder that works on text snippets and files
         var file = e.dataTransfer.files[0];
         var reader = new FileReader();
         reader.onload = function (event) {
-            fileInput.value = event.target.result;
-            fileInput.disabled = false;
+            inputArea.value = event.target.result;
+            inputArea.disabled = false;
             document.getElementById("input").select();
         }
         reader.readAsDataURL(file);
