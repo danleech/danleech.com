@@ -161,11 +161,6 @@ textarea {
     padding: 0.75rem;
 }
 
-.file-input-hover {
-    background: $blue;
-    color: $blue;
-}
-
 button, input[type="button"], input[type="submit"], a.btn {
     -webkit-appearance: none;
        -moz-appearance: none;
@@ -183,6 +178,11 @@ button, input[type="button"], input[type="submit"], a.btn {
     &:focus, &:hover {
         background: $red;
     }
+}
+
+.file-input-hover {
+    background: $blue;
+    color: $blue;
 }
 
 .container {
