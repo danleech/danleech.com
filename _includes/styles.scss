@@ -41,15 +41,12 @@ body {
     margin: 0 auto;
     padding: 0;
     background: $white;
-    // background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $blue 50%, $blue 100%);
+    // background-image: linear-gradient($blue 0%, $blue 50%, transparent 50%, transparent 100%);
     // background-size: 3rem 3rem;
     color: $grey-dark;
     font-family: "Sentinel A", "Sentinel B", serif;
     line-height: 1.5rem;
     -webkit-font-feature-settings: "dlig", "kern", "liga";
-       -moz-font-feature-settings: "dlig", "kern", "liga";
-        -ms-font-feature-settings: "dlig", "kern", "liga";
-         -o-font-feature-settings: "dlig", "kern", "liga";
             font-feature-settings: "dlig", "kern", "liga";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -60,7 +57,7 @@ body {
 }
 
 a {
-    background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
+    background-image: linear-gradient($black 0%, $black 50%, transparent 50%, transparent 100%);
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 2px 2px;
@@ -71,7 +68,7 @@ a {
     }
     &:focus, &:hover {
         color: $red;
-        background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $red 50%, $red 100%);
+        background-image: linear-gradient($red 0%, $red 50%, transparent 50%, transparent 100%);
     }
 }
 
@@ -109,13 +106,13 @@ figcaption {
     font-size: 0.75rem;
     font-style: italic;
     a {
-        background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
+        background-image: linear-gradient($black 0%, $black 50%, transparent 50%, transparent 100%);
         background-position: bottom;
         background-repeat: repeat-x;
         background-size: 2px 2px;
         &:focus, &:hover {
             color: $red;
-            background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $red 50%, $red 100%);
+            background-image: linear-gradient($red 0%, $red 50%, transparent 50%, transparent 100%);
         }
     }
 }
@@ -175,8 +172,7 @@ label {
 }
 
 input[type="text"], textarea {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
+    box-sizing: border-box;
     display: block;
     width: 100%;
     margin: 0 0 1.5rem;
@@ -193,8 +189,8 @@ input[type="text"] {
 }
 
 main, footer {
-    -webkit-animation: introduction 1s;
-            animation: introduction 1s;
+    -webkit-animation: introduction 1s ease-in;
+            animation: introduction 1s ease-in;
 }
 
 textarea {
@@ -285,7 +281,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 
 .introduction {
     padding: 3rem 0;
-    background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $grey 50%, $grey 100%);
+    background-image: linear-gradient($grey 0%, $grey 50%, transparent 50%, transparent 100%);
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 2px 2px;
@@ -308,7 +304,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 
 .site-main {
     padding: 0 0 3rem;
-    background-image: linear-gradient(180deg, transparent 0%, transparent 50%, $black 50%, $black 100%);
+    background-image: linear-gradient($black 0%, $black 50%, transparent 50%, transparent 100%);
     background-position: bottom;
     background-repeat: repeat-x;
     background-size: 2px 2px;
