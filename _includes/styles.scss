@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins/clearfix";
 @import "mixins/underlined";
 @import "animations";
 
@@ -32,8 +33,8 @@ a {
     color: $black;
     text-decoration: none;
     &:focus, &:hover {
-        color: $red;
         @include underlined($red);
+        color: $red;
     }
 }
 
@@ -73,8 +74,8 @@ figcaption {
     a {
         @include underlined($black);
         &:focus, &:hover {
-            color: $red;
             @include underlined($red);
+            color: $red;
         }
     }
 }
@@ -197,17 +198,13 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .site-header {
+    @extend %clearfix;
     padding: 1.5rem 0;
     background: $grey-light;
     color: $black;
     text-align: center;
     a {
         background-image: none;
-    }
-    &:after {
-        content: " ";
-        display: table;
-        clear: both;
     }
     @media (min-width: 600px) {
         text-align: left;
@@ -242,8 +239,8 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .introduction {
-    padding: 3rem 0;
     @include underlined($grey);
+    padding: 3rem 0;
     color: $black;
     font-size: 1.2rem;
     text-align: center;
@@ -259,8 +256,8 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .site-main {
-    padding: 0 0 3rem;
     @include underlined($black);
+    padding: 0 0 3rem;
 }
 
 .site-footer {
@@ -292,7 +289,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .permalink, .permalink:focus, .permalink:hover {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiA5NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgOTYiPjxwYXRoIGZpbGw9IiNEREQiIGQ9Ik0yOS44IDIuM2wtLjEtLjFDMjYuOC0uNyAyMS45LS43IDE5IDIuMkwxMi4yIDljLTIuOSAyLjktMi45IDcuOCAwIDEwLjdsLjEuMWMuMi4yLjUuNS44LjdsMi41LTIuNWMtLjMtLjItLjYtLjQtLjgtLjZsLS4xLS4xYy0xLjYtMS42LTEuNi00LjIgMC01LjhsNi44LTYuOGMxLjYtMS42IDQuMi0xLjYgNS44IDBsLjEuMWMxLjYgMS42IDEuNiA0LjIgMCA1LjhsLTMuMSAzLjFjLjUgMS4zLjggMi43LjggNC4xbDQuOC00LjhjMi44LTIuOSAyLjgtNy43LS4xLTEwLjd6bS0xMC4xIDkuOWMtLjItLjItLjUtLjUtLjgtLjdMMTYuNSAxNGMuMy4yLjYuNC44LjZsLjEuMWMxLjYgMS42IDEuNiA0LjIgMCA1LjhsLTYuOCA2LjhjLTEuNiAxLjYtNC4yIDEuNi01LjggMGwtLjEtLjFjLTEuNi0xLjYtMS42LTQuMiAwLTUuOGwzLjEtMy4xQzcuMiAxNyA3IDE1LjYgNyAxNC4yTDIuMiAxOWMtMi45IDIuOS0yLjkgNy44IDAgMTAuN2wuMS4xYzIuOSAyLjkgNy44IDIuOSAxMC43IDBsNi44LTYuOGMyLjktMi45IDIuOS03LjggMC0xMC43bC0uMS0uMXoiLz48cGF0aCBmaWxsPSIjRjIyIiBkPSJNMjkuOCA2Ni4zbC0uMS0uMWMtMi45LTIuOS03LjgtMi45LTEwLjcgMEwxMi4yIDczYy0yLjkgMi45LTIuOSA3LjggMCAxMC43bC4xLjFjLjIuMi41LjUuOC43bDIuNS0yLjVjLS4zLS4yLS42LS40LS44LS42bC0uMS0uMWMtMS42LTEuNi0xLjYtNC4yIDAtNS44bDYuOC02LjhjMS42LTEuNiA0LjItMS42IDUuOCAwbC4xLjFjMS42IDEuNiAxLjYgNC4yIDAgNS44bC0zLjEgMy4xYy41IDEuMy44IDIuNy44IDQuMWw0LjgtNC44YzIuOC0yLjkgMi44LTcuNy0uMS0xMC43em0tMTAuMSA5LjljLS4yLS4yLS41LS41LS44LS43TDE2LjUgNzhjLjMuMi42LjQuOC42bC4xLjFjMS42IDEuNiAxLjYgNC4yIDAgNS44bC02LjggNi44Yy0xLjYgMS42LTQuMiAxLjYtNS44IDBsLS4xLS4xYy0xLjYtMS42LTEuNi00LjIgMC01LjhsMy4xLTMuMUM3LjIgODEgNyA3OS42IDcgNzguMkwyLjIgODNjLTIuOSAyLjktMi45IDcuOCAwIDEwLjdsLjEuMWMyLjkgMi45IDcuOCAyLjkgMTAuNyAwbDYuOC02LjhjMi45LTIuOSAyLjktNy44IDAtMTAuN2wtLjEtLjF6Ii8+PC9zdmc+);
+    background-image: $permalink-image;
     background-repeat: no-repeat;
     background-size: 0.75rem 2.25rem;
 }
@@ -312,11 +309,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .controls {
-    &:after {
-        content: " ";
-        display: table;
-        clear: both;
-    }
+    @extend %clearfix;
     input {
         display: block;
         width: 100%;
