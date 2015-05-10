@@ -1,0 +1,23 @@
+@-webkit-keyframes introduction {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0.75rem);
+                transform: translateY(0.75rem);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes introduction {
+    0% {
+        opacity: 0;
+        transform: translateY(0.375rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

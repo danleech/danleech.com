@@ -1,0 +1,13 @@
+%underlined-common {
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-size: 1px 1px;
+    }
+}
+
+@mixin underlined($colour) {
+    @extend %underlined-common;
+    background-image: linear-gradient(transparent 0%, transparent 50%, $colour 50%, $colour 100%);
+}

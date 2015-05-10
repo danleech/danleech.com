@@ -1,9 +1,9 @@
 {% include header.html %}
     <div class="container">
         <main class="site-main" role="main">
-            <article class="article--page">
+            <article class="articles--page">
                 <ul class="articles-list">{% for post in site.posts %}
-                    <li class="article-list__item">
+                    <li class="articles-list__item">
                     {% if post.linkpost == "true" %}
                         <a href="{{ post.link }}">{{ post.title }}</a>
                         <a href="{{ post.url }}" class="permalink">Permalink</a>
