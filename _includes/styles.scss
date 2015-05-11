@@ -152,8 +152,8 @@ input[type="text"] {
 }
 
 main, footer {
-    -webkit-animation: introduction 1s ease-in;
-            animation: introduction 1s ease-in;
+    -webkit-animation: introduction 0.75s ease-out;
+            animation: introduction 0.75s ease-out;
 }
 
 textarea {
