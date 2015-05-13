@@ -267,6 +267,9 @@ button, input[type="button"], input[type="submit"], a.btn {
     h1 {
         font-size: 1.4rem;
         line-height: 1.5rem;
+        a {
+            background-image: none;
+        }
     }
 }
 
@@ -274,6 +277,9 @@ button, input[type="button"], input[type="submit"], a.btn {
     h1 {
         font-size: 1rem;
         line-height: 1.5rem;
+        a {
+            background-image: none;
+        }
     }
 }
 
@@ -282,11 +288,14 @@ button, input[type="button"], input[type="submit"], a.btn {
         margin: 3rem 0 1.5rem;
         font-size: 1.4rem;
         line-height: 1.5rem;
+        a {
+            background-image: none;
+        }
     }
 }
 
 .permalink, .permalink:focus, .permalink:hover {
-    background-image: $permalink-image;
+    background-image: $permalink-image !important;
     background-repeat: no-repeat;
     background-size: 0.75rem 2.25rem;
 }
@@ -330,6 +339,7 @@ button, input[type="button"], input[type="submit"], a.btn {
     margin: 1.5rem 0;
     a {
         font-weight: 700;
+        background-image: none;
     }
     time {
         display: block;
