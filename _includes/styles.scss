@@ -200,7 +200,6 @@ button, input[type="button"], input[type="submit"], a.btn {
 .site-header {
     @extend %clearfix;
     padding: 1.5rem 0;
-    background: $grey-light;
     color: $black;
     text-align: center;
     a {
@@ -239,8 +238,7 @@ button, input[type="button"], input[type="submit"], a.btn {
 }
 
 .introduction {
-    @include underlined($grey);
-    padding: 3rem 0;
+    padding: 3rem 0 0;
     color: $black;
     font-size: 1.2rem;
     text-align: center;
@@ -249,14 +247,13 @@ button, input[type="button"], input[type="submit"], a.btn {
         margin: 0 auto;
     }
     @media (min-width: 600px) {
-        padding: 6rem 0;
+        padding: 6rem 0 3rem;
         font-size: 1.5rem;
         line-height: 2.25rem;
     }
 }
 
 .site-main {
-    @include underlined($black);
     padding: 0 0 3rem;
 }
 
