@@ -16,11 +16,11 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 ## Dan Leech
 
-- #26C6DA
+- #22CCDD
 - #FF2222
 - #EEEEEE
-- #434340
-- #131310
+- #444444
+- #111100
 
 ## Event Store
 
