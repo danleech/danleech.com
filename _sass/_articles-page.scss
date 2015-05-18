@@ -1,0 +1,17 @@
+.articles-list {
+    margin: 3rem 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.articles-list__item {
+    margin: 1.5rem 0;
+    a {
+        font-weight: 700;
+        background-image: none;
+    }
+    time {
+        display: block;
+        font-size: 0.75rem;
+    }
+}
