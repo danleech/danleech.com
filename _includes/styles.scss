@@ -7,11 +7,7 @@
 @import "forms";
 @import "home-page";
 @import "articles-page";
-
-
-
-
-
+@import "articles";
 
 .container {
     max-width: 36rem;
@@ -33,55 +29,4 @@
     margin: 1.5rem 0 0;
     color: $black;
     font-size: 0.75rem;
-}
-
-.article--text {
-    h1 {
-        font-size: 1.4rem;
-        line-height: 1.5rem;
-        a {
-            background-image: none;
-        }
-    }
-}
-
-.article--link {
-    h1 {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        a {
-            background-image: none;
-        }
-    }
-}
-
-.article--page {
-    h1 {
-        margin: 3rem 0 1.5rem;
-        font-size: 1.4rem;
-        line-height: 1.5rem;
-        a {
-            background-image: none;
-        }
-    }
-}
-
-.permalink, .permalink:focus, .permalink:hover {
-    background-image: $permalink-image !important;
-    background-repeat: no-repeat;
-    background-size: 0.75rem 2.25rem;
-}
-
-.permalink {
-    display: inline-block;
-    height: 0.75rem;
-    width: 0.75rem;
-    margin: 0 0 0 0.25rem;
-    background-position: top;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    &:focus, &:hover {
-        background-position: bottom;
-    }
 }
