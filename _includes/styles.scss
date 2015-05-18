@@ -5,6 +5,7 @@
 @import "base";
 @import "site-header";
 @import "forms";
+@import "home-page";
 
 
 
@@ -20,24 +21,6 @@
     }
     @media (min-width: 1000px) {
         padding: 0 3rem;
-    }
-}
-
-
-
-.introduction {
-    padding: 4.5rem 0 3rem;
-    color: $black;
-    font-size: 1.2rem;
-    text-align: center;
-    p {
-        max-width: 30rem;
-        margin: 0 auto;
-    }
-    @media (min-width: 600px) {
-        padding: 7.5rem 0 7.5rem;
-        font-size: 1.5rem;
-        line-height: 2.25rem;
     }
 }
 
