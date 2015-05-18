@@ -3,14 +3,12 @@
 @import "mixins/underlined";
 @import "animations";
 @import "base";
+@import "forms";
 
 
 
 
-.file-input-hover {
-    background: $blue;
-    color: $blue;
-}
+
 
 .container {
     max-width: 36rem;
@@ -141,21 +139,6 @@
     }
 }
 
-.controls {
-    @extend %clearfix;
-    input {
-        display: block;
-        width: 100%;
-        margin: 0 0 0.75rem;
-        @media (min-width: 1000px) {
-            float: left;
-            display: inline-block;
-            width: auto;
-            margin: 0 0.75rem 1.5rem 0;
-        }
-    }
-}
-
 .articles-list {
     margin: 3rem 0 1.5rem;
     padding: 0;
@@ -172,8 +155,4 @@
         display: block;
         font-size: 0.75rem;
     }
-}
-
-.c2a {
-    margin: 6rem 0 1.5rem;
 }
