@@ -1,6 +1,6 @@
     <footer class="site-footer" role="contentinfo">
         <div class="container">
-            <p>&copy; 2012–2015 {{ site.author }}. Follow me on <a href="https://twitter.com/d_leech">Twitter</a> and <a href="https://github.com/danleech">GitHub</a>.</p>
+            <p>&copy; {% assign firstPost = site.posts | last %}{{ firstPost.date | date: "%Y" }}–{{ site.time | date: "%Y" }} {{ site.author }}. Follow me on <a href="https://twitter.com/d_leech">Twitter</a> and <a href="https://github.com/danleech">GitHub</a>.</p>
         </div>
     </footer>
     <link rel="stylesheet" href="//cloud.typography.com/7437472/747866/css/fonts.css">
