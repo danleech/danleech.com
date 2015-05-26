@@ -119,6 +119,7 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Clothes line
 - Clothes pegs
 - Compass
+- <ins datetime="2015-05-26T19:00:00Z">Fire starter (alternative to matches)</ins>
 - Map
 - <ins datetime="2015-05-26T19:00:00Z">Rope (10m+)</ins>
 - <ins datetime="2015-05-26T19:00:00Z">Shovel (foldable)</ins>
