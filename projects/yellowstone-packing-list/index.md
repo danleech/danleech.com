@@ -131,7 +131,7 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Cutting board
 - Duct tape
 
-\* Items marked with an asterisk are to be sourced locally.
+\* Items marked with an asterisk will be sourced locally.
 
 <style>
     .site-header {
