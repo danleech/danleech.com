@@ -103,7 +103,12 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Washing up soap
 
 ### Food
-- Food*
+- Noodles/pasta
+- Nuts
+- Rice
+- Stock cubes
+- Tinned fruits
+- Tinned tomatoes
 
 ### Gear
 - Bear spray*
