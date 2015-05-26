@@ -10,3 +10,4 @@ description: "A list of projects and tools"
 - [Palettes](/projects/palettes/)
 - [Solid PNG Generator](/projects/png-generator/)
 - [Visited Countries](/projects/visited-countries/)
+- [Yellowstone Packing List](/projects/yellowstone-packing-list/)
