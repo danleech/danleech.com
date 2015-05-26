@@ -37,6 +37,7 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Blister plasters
 - Gauze
 - Immodium
+- <ins datetime="2015-05-26T19:00:00Z">Insect bite relief</ins>
 - Insect repellent
 - Medical scissors
 - Painkillers (not aspirin)
@@ -55,8 +56,8 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Mobile phone & charger
 - Pen knife
 - Pen
-- <ins>Sleeping bag</ins>
-- <ins>Sleeping mat</ins>
+- <ins datetime="2015-05-26T19:00:00Z">Sleeping bag</ins>
+- <ins datetime="2015-05-26T19:00:00Z">Sleeping mat</ins>
 - Sunglasses
 - Survival bag
 - Towel
@@ -119,8 +120,9 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Clothes pegs
 - Compass
 - Map
-- <ins>Rope (10m+)</ins>
-- <ins>Tent</ins>
+- <ins datetime="2015-05-26T19:00:00Z">Rope (10m+)</ins>
+- <ins datetime="2015-05-26T19:00:00Z">Shovel (foldable)</ins>
+- <ins datetime="2015-05-26T19:00:00Z">Tent</ins>
 
 ### Paperwork
 - Reservations
