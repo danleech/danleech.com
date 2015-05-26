@@ -10,8 +10,8 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Base layer tops
 - Boots
 - Boot laces (spare)
-- Coat (waterproof)
 - Coat (warm)
+- Coat (waterproof)
 - Fleece (heavyweight)
 - Fleece (lightweight)
 - Gloves
