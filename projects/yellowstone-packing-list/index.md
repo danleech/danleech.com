@@ -55,6 +55,8 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Mobile phone & charger
 - Pen knife
 - Pen
+- <ins>Sleeping bag</ins>
+- <ins>Sleeping mat</ins>
 - Sunglasses
 - Survival bag
 - Towel
@@ -117,6 +119,8 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
 - Clothes pegs
 - Compass
 - Map
+- <ins>Rope (10m+)</ins>
+- <ins>Tent</ins>
 
 ### Paperwork
 - Reservations
@@ -136,6 +140,14 @@ description: "A comprehensive packing list for a trekking holiday in Yellowstone
     }
     main h3 {
         margin: 1.5rem 0 0;
+    }
+    main ins {
+        display: inline;
+        margin: 0;
+        color: #2CD;
+    }
+    main ins:before {
+        content: "";
     }
     main ul {
         margin: 0 0 1.5rem;
