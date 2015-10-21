@@ -8,6 +8,7 @@ description: "A list of projects and tools"
 - [Bond Films](/projects/bond/)
 - [Jekyll Stats](/projects/jekyll-stats/)
 - [Palettes](/projects/palettes/)
+- [Simple Icons](https://simpleicons.org)
 - [Solid PNG Generator](/projects/png-generator/)
 - [Visited Countries](/projects/visited-countries/)
 - [Yellowstone Packing List](/projects/yellowstone-packing-list/)
