@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, shrink-to-fit=no, width=device-width">
+    <title>{% if page.title %}{{ page.title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.description }}{% endif %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700|Lora:400,400italic,700,700italic">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="site-header" role="banner">
+        <a href="/" class="site-title">{{ site.name }}</a>
+        <ul class="site-nav" role="navigation">
+            <li class="site-nav__item"><a href="/#articles">Articles</a></li>
+            <li class="site-nav__item"><a href="/#projects">Projects</a></li>
+            <li class="site-nav__item"><a href="https://github.com/danleech">GitHub</a></li>
+            <li class="site-nav__item"><a href="https://twitter.com/bathtype">Twitter</a></li>
+        </ul>
+    </header>
+    <main class="site-main" role="main">

@@ -1,0 +1,133 @@
+html {
+    font-size: 100%;
+    @media (min-width: 2000px) {
+        font-size: 0.8vw;
+    }
+}
+
+a {
+    color: $color-links;
+    text-decoration: none;
+    &:focus, &:hover {
+        color: $color-links-hover;
+    }
+}
+
+article {
+    ul, ol {
+        margin: $unit-baseline 0;
+        padding: 0 0 0 $unit-baseline;
+        @media (min-width: $unit-breakpoint) {
+            padding: 0;
+        }
+    }
+}
+
+body {
+    background-color: $color-background;
+    color: $color-text;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    font-family: $font-content;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    line-height: $unit-baseline;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+button {
+    background-color: $color-links;
+    border: 0;
+    color: $color-background;
+    font-family: $font-ui;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: inherit;
+    margin: 0;
+    padding: $unit-baseline / 2 $unit-baseline;
+    &:focus, &:hover {
+        background-color: $color-links-hover;
+        cursor: pointer;
+    }
+}
+
+figcaption {
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: $unit-baseline;
+    text-align: center;
+}
+
+figure {
+    line-height: 0;
+    margin: $unit-baseline 0;
+    a {
+        line-height: 0;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: $unit-baseline * 2;
+    margin: $unit-baseline * 3 0 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: $unit-baseline;
+    margin: $unit-baseline * 3 0 $unit-baseline;
+}
+
+input[type="text"] {
+    background-color: inherit;
+    border: 1px solid $color-ui;
+    color: inherit;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: calc(#{$unit-baseline} / 2 - 1px);
+    width: calc(100% - #{$unit-baseline});
+}
+
+ins {
+    background-color: $color-note;
+    display: block;
+    font-style: italic;
+    padding: $unit-baseline;
+    text-decoration: none;
+}
+
+label {
+    display: block;
+    font-family: $font-ui;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    margin: $unit-baseline 0 0;
+}
+
+p {
+    margin: $unit-baseline auto;
+}
+
+textarea {
+    background-color: inherit;
+    border: 1px solid $color-ui;
+    color: inherit;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: calc(#{$unit-baseline} / 2 - 1px);
+    width: calc(100% - #{$unit-baseline});
+}

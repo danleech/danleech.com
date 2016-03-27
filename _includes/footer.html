@@ -1,0 +1,22 @@
+    </main>
+    <footer class="site-footer" role="contentinfo">
+        <p>&copy; {% assign firstPost = site.posts | last %}{{ firstPost.date | date: "%Y" }}–{{ site.time | date: "%Y" }} {{ site.name }}</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 750);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+</html>

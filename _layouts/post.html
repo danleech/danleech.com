@@ -1,0 +1,9 @@
+{% include header.html %}
+        <article>
+            <header>
+                <h1>{{ page.title }}</h1>
+                <p class="text--meta">{{ page.date | date: "%-d %B %Y"}}</p>
+            </header>
+            {{ content }}
+        </article>
+{% include footer.html %}

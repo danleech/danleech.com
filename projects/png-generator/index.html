@@ -1,0 +1,165 @@
+---
+title: "Solid PNG Generator"
+layout: page
+description: "Generate PNGs of a given size and colour"
+---
+
+<form>
+    <label for="dimensions">Dimensions</label>
+    <input type="text" id="dimensions" placeholder="E.g. “1920 by 1080” or “1920 * 1080” or “1080p”" autofocus>
+    <label for="colour">Colour</label>
+    <input type="text" id="colour" placeholder="E.g. “#FF0000” or “red” or “rgba(255,0,0,0.5)”">
+    <p>
+        <button onclick="generate();return false">Generate PNG</button>
+    </p>
+</form>
+<canvas id="canvas" style="display:none"></canvas>
+
+<script>
+    function generate() {
+        var width = 0, height = 0;
+        var dimensions = document.getElementById("dimensions").value;
+        var colour = document.getElementById("colour").value;
+        dimensions = dimensions.toLowerCase();
+        dimensions = dimensions.replace(/\s/g, '');
+        switch (dimensions) {
+            case "1080p":
+                width = 1920;
+                height = 1080;
+                break;
+            case "4k":
+                width = 3840;
+                height = 2160;
+                break;
+            case "5k":
+                width = 5120;
+                height = 2880;
+                break;
+            case "720p":
+                width = 1280;
+                height = 720;
+                break;
+            case "8k":
+                width = 8192;
+                height = 4608;
+                break;
+            case "imac":
+                width = 2560;
+                height = 1440;
+                break;
+            case "ipad":
+            case "ipad2":
+            case "ipad3":
+            case "ipad4":
+            case "ipadair":
+            case "ipadair2":
+            case "ipadmini":
+            case "ipadmini2":
+            case "ipadmini3":
+                width = 2048;
+                height = 2048;
+                break;
+            case "iphone":
+            case "iphone3g":
+            case "iphone3gs":
+            case "iphone4":
+            case "iphone4s":
+                width = 320;
+                height = 480;
+                break;
+            case "iphone5":
+            case "iphone5c":
+            case "iphone5s":
+            case "iphonese":
+            case "ipodtouch":
+                width = 320;
+                height = 468;
+            case "iphone6":
+                width = 750;
+                height = 1334;
+                break;
+            case "iphone6+":
+            case "iphone6s+":
+            case "iphone6plus":
+            case "iphone6splus":
+                width = 1242;
+                height = 2208;
+                break;
+            default:
+                var validformat = /\d+(\*|x|by)\d+/;
+                if (dimensions.search(validformat) == -1) {
+                    alert("That’s not a valid resolution.");
+                } else {
+                    var separator = "";
+                    if (dimensions.indexOf("*") > -1) {
+                        separator = "*";
+                    } else if (dimensions.indexOf("by") > -1) {
+                        separator = "by";
+                    } else {
+                        separator = "x";
+                    }
+                    width = dimensions.substr(0, dimensions.indexOf(separator));
+                    height = dimensions.substr(dimensions.indexOf(separator) + separator.length, dimensions.length);
+                }
+        }
+        var canvas = document.getElementById("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = colour;
+        ctx.fillRect(0, 0, width, height);
+        var canvas = document.getElementById("canvas");
+        var img = canvas.toDataURL("image/png");
+        window.open(img, "_blank");
+
+    }
+
+    function encode() {
+        var input = document.getElementById("input").value;
+        document.getElementById("input").value = "Encoding...";
+        input = btoa(input);
+        document.getElementById("input").value = input;
+        document.getElementById("input").select();
+        return false;
+    }
+
+    function decode() {
+        var input = document.getElementById("input").value;
+        document.getElementById("input").value = "Decoding...";
+        if (input.substring(0, 4) == "data") {
+            window.open(input, "_blank");
+            document.getElementById("input").value = "File opened in a new window.";
+        } else {
+            input = atob(input);
+            document.getElementById("input").value = input;
+            document.getElementById("input").select();
+            return false;
+        }
+    }
+
+    var fileInput = document.getElementById("input");
+
+    fileInput.ondragover = function() {
+        this.className = "file-input-hover";
+    }
+
+    fileInput.ondragend = function() {
+        this.className = "";
+    }
+
+    fileInput.ondrop = function(e) {
+        e.preventDefault();
+        this.className = "";
+        this.value = "Encoding...";
+        this.disabled = "true";
+        var file = e.dataTransfer.files[0];
+        var reader = new FileReader();
+        reader.onload = function (event) {
+            fileInput.value = event.target.result;
+            fileInput.disabled = false;
+            document.getElementById("input").select();
+        }
+        reader.readAsDataURL(file);
+        return false;
+    }
+</script>
