@@ -4,6 +4,11 @@
         display: flex;
         justify-content: space-between;
     }
+    @media (max-width: 350px) {
+        .optional {
+            display: none !important;
+        }
+    }
 }
 
 .site-title {
@@ -27,6 +32,8 @@
 }
 
 .site-nav__item {
+    margin: 0;
+    padding: 0;
     a {
         color: $color-text;
         display: block;

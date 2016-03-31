@@ -36,7 +36,7 @@
     @media (min-width: $unit-breakpoint) {
         display: flex;
         flex-wrap: wrap;
-        margin: $unit-baseline * -0.5;
+        margin: $unit-baseline * -0.25;
     }
 }
 
@@ -58,7 +58,7 @@
     }
     @media (min-width: $unit-breakpoint) {
         box-sizing: border-box;
-        padding: $unit-baseline / 2;
+        padding: $unit-baseline / 4;
         width: 50%;
     }
 }

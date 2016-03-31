@@ -1,4 +1,7 @@
 name: "Dan Leech"
+url: http://danleech.com
+author: "Dan Leech"
+image: /images/avatar-large.jpg
 description: "Software Designer in Bath, UK"
 permalink: /articles/:title/
 post_dirs: false
