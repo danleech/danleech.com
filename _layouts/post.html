@@ -1,21 +1,9 @@
 {% include header.html %}
-    <div class="container">
-        <main class="site-main" role="main">
-            {% if page.linkpost == "true" %}<article class="article--link">
-                <header>
-                    <h1><a href="{{ page.link }}">{{ page.title }}</a>
-                        <a href="{{ page.url }}" class="permalink">Permalink</a></h1>
-                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d" }}{% assign cardinal = page.date | date: "%-d" %}{% case cardinal %}{% when "1" or "21" or "31" %}st{% when "2" or "22" %}nd{% when "3" or "23" %}rd{% else %}th{% endcase %} {{ page.date | date: "%B %Y"}}</time>
-                </header>
-                {{ content }}
-            </article>
-            {% else %}<article class="article--text">
-                <header>
-                    <h1>{{ page.title }}</h1>
-                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d" }}{% assign cardinal = page.date | date: "%-d" %}{% case cardinal %}{% when "1" or "21" or "31" %}st{% when "2" or "22" %}nd{% when "3" or "23" %}rd{% else %}th{% endcase %} {{ page.date | date: "%B %Y"}}</time>
-                </header>
-                {{ content }}
-            <article>{% endif %}
-        </main>
-    </div>
+        <article>
+            <header>
+                <h1>{{ page.title }}</h1>
+                <p class="text--meta">{{ page.date | date: "%-d %B %Y"}}</p>
+            </header>
+            {{ content }}
+        </article>
 {% include footer.html %}

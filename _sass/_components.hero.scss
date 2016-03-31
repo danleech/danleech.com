@@ -1,0 +1,14 @@
+.hero {
+    font-size: 1.25rem;
+    font-style: italic;
+    line-height: $unit-baseline;
+    margin: $unit-baseline * 3 0;
+    max-width: $unit-measure / 1.5;
+    transition: all 0.1s linear;
+    @media (min-width: $unit-breakpoint) {
+        font-size: 2.25rem;
+        line-height: $unit-baseline * 2;
+        // margin: $unit-baseline * 6 0;
+        max-width: $unit-measure;
+    }
+}

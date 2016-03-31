@@ -9,9 +9,9 @@ description: "Generate PNGs of a given size and colour"
     <input type="text" id="dimensions" placeholder="E.g. “1920 by 1080” or “1920 * 1080” or “1080p”" autofocus>
     <label for="colour">Colour</label>
     <input type="text" id="colour" placeholder="E.g. “#FF0000” or “red” or “rgba(255,0,0,0.5)”">
-    <div class="controls">
-        <input type="submit" onclick="generate()" value="Generate PNG">
-    </div>
+    <p>
+        <button onclick="generate();return false">Generate PNG</button>
+    </p>
 </form>
 <canvas id="canvas" style="display:none"></canvas>
 
@@ -70,6 +70,8 @@ description: "Generate PNGs of a given size and colour"
             case "iphone5":
             case "iphone5c":
             case "iphone5s":
+            case "iphonese":
+            case "ipodtouch":
                 width = 320;
                 height = 468;
             case "iphone6":
@@ -77,14 +79,16 @@ description: "Generate PNGs of a given size and colour"
                 height = 1334;
                 break;
             case "iphone6+":
+            case "iphone6s+":
             case "iphone6plus":
+            case "iphone6splus":
                 width = 1242;
                 height = 2208;
                 break;
             default:
                 var validformat = /\d+(\*|x|by)\d+/;
                 if (dimensions.search(validformat) == -1) {
-                    alert("Invalid resolution");
+                    alert("That’s not a valid resolution.");
                 } else {
                     var separator = "";
                     if (dimensions.indexOf("*") > -1) {

@@ -6,10 +6,10 @@ description: "A base64 encoder and decoder that works on text snippets and files
 
 <form>
     <textarea id="input" spellcheck="false" autofocus>Paste text or drop a file into the box above.</textarea>
-    <div class="controls">
-        <input type="button" onclick="encode()" value="Encode" />
-        <input type="button" onclick="decode()" value="Decode" />
-    </div>
+    <p>
+        <button onclick="encode();return false">Encode</button>
+        <button onclick="decode();return false">Decode</button>
+    </p>
 </form>
 
 <script>

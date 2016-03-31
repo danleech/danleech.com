@@ -1,7 +1,6 @@
 ---
-title: "Palettes"
 layout: page
-description: "Colour palettes for projects"
+title: "Palettes"
 ---
 
 These are colour palettes for projects I’m working on. They’re invaluable to me, but probably useless to everyone else.
@@ -16,11 +15,9 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 ## Dan Leech
 
-- #22CCDD
-- #FF2222
-- #EEEEEE
-- #444444
-- #111100
+- #1976D2
+- #E0E3E6
+- #223344
 
 ## Event Store
 
@@ -49,51 +46,23 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 - #414440
 
 <style>
-/*.site-main ul {
-    margin: -0.375rem;
-    padding: 0;
-    list-style: none;
-}
-.site-main ul:after {
-    content: " ";
-    clear: both;
-    display: table;
-}
-.site-main li {
-    display: inline-block;
-    float: left;
-    width: calc(50% - 0.75rem);
-    margin: 0.375rem;
-    text-align: center;
-    line-height: 4.5rem;
-}
-@media (min-width: 500px) {
-    .site-main li {
-        width: calc(33.333% - 0.75rem);
-    }
-}*/
-.site-main ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-@media (min-width: 600px) {
     .site-main ul {
-        display: -webkit-flex;
-        display:     -ms-flex;
-        display:         flex;
-        -webkit-flex-direction: row;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
-}
-.site-main li {
-    -webkit-flex-grow: 1;
-        -ms-flex-grow: 1;
-    font-size: 0.75rem;
-    line-height: 4.5rem;
-    text-align: center;
-}
+    @media (min-width: 720px) {
+        .site-main ul {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .site-main li {
+        flex-grow: 1;
+        font-size: 0.8125rem;
+        line-height: 3.5rem;
+        text-align: center;
+    }
 </style>
 
 <script>

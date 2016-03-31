@@ -1,10 +1,22 @@
+    </main>
     <footer class="site-footer" role="contentinfo">
-        <div class="container">
-            <p>&copy; {% assign firstPost = site.posts | last %}{{ firstPost.date | date: "%Y" }}–{{ site.time | date: "%Y" }} {{ site.author }}. Follow me on <a href="https://twitter.com/d_leech">Twitter</a> and <a href="https://github.com/danleech">GitHub</a>.</p>
-        </div>
+        <p>&copy; {% assign firstPost = site.posts | last %}{{ firstPost.date | date: "%Y" }}–{{ site.time | date: "%Y" }} {{ site.name }}</p>
     </footer>
-    <script src="https://use.typekit.net/nwl7vhi.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <script>{% include scripts.min.js %}</script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 750);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </html>

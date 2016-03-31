@@ -5,28 +5,8 @@
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
-	<url>
-		<loc>http://danleech.com/articles/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
-    </url>
-    <url>
-        <loc>http://danleech.com/projects/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
     <url>
         <loc>http://danleech.com/projects/base64/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://danleech.com/projects/bond/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>http://danleech.com/projects/jekyll-stats/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
