@@ -1,6 +1,11 @@
 {
     "projects": [
         {
+            "name": "News Screen",
+            "url": "/projects/news-screen",
+            "colour": "FFA000"
+        },
+        {
             "name": "Base64 Encoder &amp; Decoder",
             "url": "/projects/base64",
             "colour": "D32F2F"
