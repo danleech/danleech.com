@@ -7,11 +7,10 @@ These are colour palettes for projects I’m working on. They’re invaluable to
 
 ## Bath ASU
 
-- #009CDB
-- #0E6A8E
+- #00A3E0
 - #F3F3F3
-- #ADAFB1
-- #363636
+- #97999B
+- #3D3935
 
 ## Dan Leech
 
