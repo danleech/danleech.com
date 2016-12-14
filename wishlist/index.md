@@ -3,8 +3,6 @@ layout: page
 title: Wish List
 ---
 
-<h2 class="text--home-section-headings">Wishlist</h2>
-
 <ul class="list--index">
 <li class="list--index__item">
     <a href="https://www.trumpers.com/product_detail.cfm?product=111547181">
