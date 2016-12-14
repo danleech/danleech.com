@@ -23,6 +23,23 @@ article {
     }
 }
 
+blockquote {
+    margin: $unit-baseline * 2 0 0;
+    p {
+        max-width: 30rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    & > p:last-child {
+        margin-bottom: 0;
+    }
+    & + p {
+        color: $color-subtle;
+        font-style: italic;
+        margin-top: 0;
+    }
+}
+
 body {
     background-color: $color-background;
     color: $color-text;
