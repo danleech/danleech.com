@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Wish List
 ---
 
 <h2 class="text--home-section-headings">Wishlist</h2>
