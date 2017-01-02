@@ -36,13 +36,13 @@ title: Wish List
     </li>
     <li class="list--index__item">
         <a href="http://hiutdenim.co.uk/products/selvedge-denim-hacks-2014">
-            <strong>Hiut Denim Selvedge Slim Fit Jeans</strong> 32W 24L
+            <strong>Hiut Denim Selvedge Slim Fit Jeans</strong> 32W 34L
             <span class="text--meta">£230 from Hiut Denim</span>
         </a>
     </li>
     <li class="list--index__item">
         <a href="http://hiutdenim.co.uk/products/tech-jean">
-            <strong>Hiut Denim Tech Jeans</strong> 32W 24L
+            <strong>Hiut Denim Tech Jeans</strong> 32W 34L
             <span class="text--meta">£145 from Hiut Denim</span>
         </a>
     </li>
