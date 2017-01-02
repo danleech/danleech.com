@@ -47,6 +47,12 @@ title: Wish List
         </a>
     </li>
     <li class="list--index__item">
+        <a href="https://mahabis.com/products/larvik-dark-grey-mahabis-classic-bundle-slipper-free-soles">
+        <strong>Mahabis Classic</strong> Dark Grey with Black Sole, Mens 11
+        <span class="text--meta">£79 from Mahabis</span>
+        </a>
+    </li>
+    <li class="list--index__item">
         <a href="https://www.thewhiskyexchange.com/p/34009/talisker-2008-8-year-old-provenance">
             <strong>Talisker 2008 8 Year Old Provenance</strong>
             <span class="text--meta">£56 from The Whisky Exchange</span>
