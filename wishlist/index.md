@@ -48,7 +48,7 @@ title: Wish List
     </li>
     <li class="list--index__item">
         <a href="https://mahabis.com/products/larvik-dark-grey-mahabis-classic-bundle-slipper-free-soles">
-        <strong>Mahabis Classic</strong> Dark Grey with Black Sole, Mens 11
+        <strong>Mahabis Classic Slippers</strong> Dark Grey with Black Sole, Mens 11
         <span class="text--meta">£79 from Mahabis</span>
         </a>
     </li>
