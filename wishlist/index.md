@@ -30,8 +30,8 @@ title: Wish List
     </li>
     <li class="list--index__item">
         <a href="https://store.google.com/config/pixel_phone">
-            <strong>Google Pixel Phone</strong> 5&Prime; 128GB Black
-            <span class="text--meta">£799 from the Google Store</span>
+            <strong>Google Pixel XL Phone</strong> 128GB Silver
+            <span class="text--meta">£819 from the Google Store</span>
         </a>
     </li>
     <li class="list--index__item">
