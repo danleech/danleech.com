@@ -1,10 +1,10 @@
 $color-background:  #FFF;
-$color-links:       #27D;
+$color-links:       #F50057;
 $color-links-hover: lighten($color-links, 10%);
-$color-note:        lighten($color-links, 50%);
-$color-subtle:      #999;
-$color-text:        #333;
-$color-ui:          #EEE;
+$color-note:        lighten($color-links, 40%);
+$color-subtle:      #BDBDBD;
+$color-text:        #212121;
+$color-ui:          #EEEEEE;
 
 $font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
