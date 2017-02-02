@@ -1,32 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-gb">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, shrink-to-fit=no, width=device-width">
-    <title>{% if page.title %}{{ page.title }} — {{ site.name }}{% else %}{{ site.name }} — {{ site.description }}{% endif %}</title>
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
-    <meta property="og:site_name" content="{{ site.name }}">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+    <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
+    <meta content="{{ site.author }}" name="author">
+    <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description">
+    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" property="og:title">
+    <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" property="og:description">
+    <meta content="{{ site.url }}{{ page.url | replace:'index.html','' }}" property="og:url">
+    <meta content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" property="og:image">
+    <meta content="{{ site.name }}" property="og:site_name">
     {% if page.layout == "post" %}
-    <meta property="og:type" content="article">
-    <meta property="og:author" content="https://www.facebook.com/danleech85">
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta content="article" property="og:type">
+    <meta content="https://www.facebook.com/danleech85" property="og:author">
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     {% endif %}
-
-    <link rel="stylesheet" href="/style.css">
-
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed/">
+    <link href="/style.css" rel="stylesheet">
+    <link href="{{ site.url }}{{ page.url | replace:'index.html','' }}" rel="canonical">
+    <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.name }}" type="application/rss+xml">
 </head>
 
 <body>
     <header class="site-header" role="banner">
-        <a href="/" class="site-title">{{ site.name }}</a>
+        <a class="site-title" href="/" >{{ site.name }}</a>
         <ul class="site-nav" role="navigation">
             <li class="site-nav__item"><a href="/#articles">Articles</a></li>
             <li class="site-nav__item"><a href="/#projects">Projects</a></li>
