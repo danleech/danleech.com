@@ -19,6 +19,16 @@ Edward Snowden
 
 Ernest Hemingway
 
+> First they came for the Socialists, and I did not speak out<br>
+> Because I was not a Socialist.<br>
+> Then they came for the Trade Unionists, and I did not speak out<br>
+> Because I was not a Trade Unionist.<br>
+> Then they came for the Jews, and I did not speak out<br>
+> Because I was not a Jew.<br>
+> Then they came for me, and there was no one left to speak for me.
+
+Martin Niemöller
+
 > Of course you can have an opinion about Islam without having read Qur’an. You don’t have to read Mein Kampf to have an opinion about nazism.
 
 Richard Dawkins
