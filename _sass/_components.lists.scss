@@ -1,6 +1,5 @@
 .list--index {
     border-top: 1px solid $color-ui;
-    // font-weight: 700;
     list-style: none;
     margin: $unit-baseline 0;
     padding: 0;
@@ -47,7 +46,6 @@
         color: $color-background;
         display: block;
         padding: $unit-baseline / 2 $unit-baseline;
-        transition: all 0.1s linear;
         &:focus, &:hover {
             opacity: 0.75;
         }

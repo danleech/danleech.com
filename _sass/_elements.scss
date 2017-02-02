@@ -10,6 +10,7 @@ a {
     text-decoration: none;
     &:focus, &:hover {
         color: $color-links-hover;
+        text-decoration: underline;
     }
 }
 
@@ -46,20 +47,19 @@ body {
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
-    font-family: $font-content;
+    font-family: $font;
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures;
     font-weight: 400;
-    -webkit-font-smoothing: antialiased;
     line-height: $unit-baseline;
     margin: 0;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
 }
 
 button {
     background-color: $color-links;
     border: 0;
     color: $color-background;
-    font-family: $font-ui;
+    font-family: $font;
     font-size: 0.8125rem;
     font-weight: 700;
     line-height: inherit;
@@ -126,7 +126,7 @@ ins {
 
 label {
     display: block;
-    font-family: $font-ui;
+    font-family: $font;
     font-size: 0.8125rem;
     font-weight: 700;
     margin: $unit-baseline 0 0;

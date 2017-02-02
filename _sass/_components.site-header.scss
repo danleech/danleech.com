@@ -19,7 +19,7 @@
         color: $color-links-hover;
     }
     @media (min-width: $unit-breakpoint) {
-        padding: $unit-baseline;
+        padding: $unit-baseline * 2;
     }
 }
 
@@ -28,6 +28,9 @@
     list-style: none;
     margin: 0 $unit-baseline * 3/4;
     padding: 0;
+    @media (min-width: $unit-breakpoint) {
+        margin: 0 $unit-baseline * 7/4;
+    }
 }
 
 .site-nav__item {
@@ -41,7 +44,7 @@
             color: $color-links-hover;
         }
         @media (min-width: $unit-breakpoint) {
-            padding: $unit-baseline $unit-baseline / 4;
+            padding: $unit-baseline * 2 $unit-baseline / 4;
         }
     }
 }

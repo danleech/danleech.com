@@ -2,7 +2,6 @@
     margin: 0 auto;
     max-width: $unit-measure;
     padding: 0 $unit-baseline;
-    transition: all 0.1s linear;
     @media (min-width: $unit-breakpoint) {
         padding: 0 $unit-baseline * 3;
     }
