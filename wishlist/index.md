@@ -23,18 +23,6 @@ title: Wish List
         </a>
     </li>
     <li class="list--index__item">
-        <a href="https://store.google.com/product/chromecast_ultra">
-            <strong>Google Chromecast Ultra</strong>
-            <span class="text--meta">£69 from the Google Store</span>
-        </a>
-    </li>
-    <li class="list--index__item">
-        <a href="https://store.google.com/config/pixel_phone">
-            <strong>Google Pixel XL Phone</strong> 128GB Silver
-            <span class="text--meta">£819 from the Google Store</span>
-        </a>
-    </li>
-    <li class="list--index__item">
         <a href="http://hiutdenim.co.uk/products/selvedge-denim-hacks-2014">
             <strong>Hiut Denim Selvedge Slim Fit Jeans</strong> 32W 34L
             <span class="text--meta">£230 from Hiut Denim</span>
@@ -50,6 +38,18 @@ title: Wish List
         <a href="https://mahabis.com/products/larvik-dark-grey-mahabis-classic-bundle-slipper-free-soles">
         <strong>Mahabis Classic Slippers</strong> Dark Grey with Black Sole, Mens UK11
         <span class="text--meta">£79 from Mahabis</span>
+        </a>
+    </li>
+    <li class="list--index__item">
+        <a href="http://www.solidwool.com/chair">
+        <strong>Solidwool Chair</strong>
+        <span class="text--meta">£395 from Solidwool</span>
+        </a>
+    </li>
+    <li class="list--index__item">
+        <a href="http://www.solidwool.com/sheepskin">
+        <strong>Solidwool Sheepskin</strong>
+        <span class="text--meta">£85 from Solidwool</span>
         </a>
     </li>
     <li class="list--index__item">
