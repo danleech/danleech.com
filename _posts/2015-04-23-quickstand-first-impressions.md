@@ -2,11 +2,11 @@
 title: "QuickStand: First Impressions"
 date: 2015-04-23T18:25Z
 layout: post
-description: "Yesterday I recieved a Humanscale QuickStand sit-stand desk device to try. It’s an attempt to provide sit-stand functionality to existing desks. I’ll be trying it out for a while and wanted to note down some initial thoughts."
+description: "Yesterday I received a Humanscale QuickStand sit-stand desk device to try. It’s an attempt to provide sit-stand functionality to existing desks. I’ll be trying it out for a while and wanted to note down some initial thoughts."
 image: /images/quickstand-large.jpg
 ---
 
-Yesterday I recieved a [Humanscale QuickStand](http://global.humanscale.com/products/product_detail.cfm?group=quickstand) sit-stand desk device to try. It’s an attempt to provide sit-stand functionality to existing desks. I’ll be trying it out for a while and wanted to note down some initial thoughts.
+Yesterday I received a [Humanscale QuickStand](http://global.humanscale.com/products/product_detail.cfm?group=quickstand) sit-stand desk device to try. It’s an attempt to provide sit-stand functionality to existing desks. I’ll be trying it out for a while and wanted to note down some initial thoughts.
 
 <figure>
     <img src="/images/quickstand-small.jpg" srcset="/images/quickstand-medium.jpg 1x, /images/quickstand-large.jpg 2x" alt="Photo of the Humanscale QuickStand">
