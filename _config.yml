@@ -1,0 +1,4 @@
+description: I design digital products that help improve the delivery of healthcare to patients.
+sass:
+    sass_dir: _sass
+    style: compressed

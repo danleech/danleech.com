@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, width=device-width" name="viewport">
+    <title>{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}Dan Leech{% if page.title == "Homepage" %}, Product Designer{% endif %}</title>
+    <meta content="{% if page.description != "" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}" name="description">
+    <meta content="Dan Leech" name="apple-mobile-web-app-title">
+    <meta content="Dan Leech" name="author">
+    <meta content="#1976D2" name="theme-color">
+    <link href="/manifest.json" rel="manifest">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+    <style>{% capture styles %}{% include styles.scss %}{% endcapture %}{{ styles | scssify }}</style>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bathtype">
+    <meta name="twitter:creator" content="@bathtype">
+    <meta property="og:title" content="{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}Dan Leech{% if page.title == "Homepage" %}, Product Designer{% endif %}">
+    <meta property="og:description" content="{% if page.description != "" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danleech.com{{ page.url }}">
+    <meta property="og:image" content="https://danleech.com/icon-1080p.png" />
+    <meta property="og:image:alt" content="Logo for Dan Leech, made up of two colourful, intersecting code brackets.">
+</head>
+
+<body>
+    <header class="navbar" id="navigation" role="banner">
+        <button class="nav__toggle" onclick="toggleNavigation()">
+            <svg class="icon--menu" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation on</title>
+                <path d="m 3 6 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 16 l 18 0 l 0 2 l -18 0 z" />
+            </svg>
+            <svg class="icon--close" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation off</title>
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(45 12 12)" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(315 12 12)" />
+            </svg>
+        </button>
+        <ul class="nav" role="navigation">
+            <li class="nav__item--home"><a href="/"><strong>Dan Leech</strong>, Product Designer</a></li>
+            <li class="nav__item"><a href="/#about">About</a></li>
+            <li class="nav__item"><a href="mailto:dan@danleech.com">Contact</a></li>
+        </ul>
+    </header>
