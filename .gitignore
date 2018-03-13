@@ -1,23 +1,25 @@
-# OS X
-.DS_Store
+# Jekyll
+
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# macOS
+
+*.DS_Store
 .AppleDouble
 .LSOverride
+Icon
 ._*
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
-
-# Sass
-.sass-cache
-_site
-
-# Grunt
-.grunt
-build
-dist
-node_modules
-*.log

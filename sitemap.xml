@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9/">
-	<url>
-		<loc>https://danleech.com/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1</priority>
-	</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://danleech.com/projects/base64/</loc>
+        <loc>https://danleech.com</loc>
         <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://danleech.com/projects/palettes/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://danleech.com/projects/png-generator/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://danleech.com/projects/visited-countries/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
+        <priority>1</priority>
     </url>
 </urlset>

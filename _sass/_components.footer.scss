@@ -1,0 +1,12 @@
+.footer {
+    background-color: $color-blue-grey-900;
+    color: $color-grey-300;
+    text-align: center;
+    a {
+        color: $color-white;
+        text-decoration: none;
+        &:focus, &:hover {
+            text-decoration: underline;
+        }
+    }
+}

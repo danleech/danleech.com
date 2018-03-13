@@ -1,5 +1,30 @@
     </main>
-    <footer class="site-footer" role="contentinfo">
-        <p>&copy; {% assign firstPost = site.posts | last %}{{ firstPost.date | date: "%Y" }}–{{ site.time | date: "%Y" }} {{ site.name }}</p>
+    <aside class="call-to-action">
+        <p>Are you looking to hire a Product&nbsp;Designer?<br><a href="mailto:dan@danleech.com">Email me</a></p>
+    </aside>
+    <footer class="footer" role="contentinfo">
+        <p>&copy; {{ site.time | date: "%Y" }} Dan&nbsp;Leech. Follow me on <a href="https://github.com/danleech">GitHub</a>&nbsp;and&nbsp;<a href="https://twitter.com/bathtype">Twitter</a>.</p>
     </footer>
+    <script>
+        function toggleNavigation() {
+            var element = document.getElementById("navigation");
+            element.classList.toggle("is-open");
+        }
+        [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+            img.setAttribute('src', img.getAttribute('data-src'));
+            img.onload = function() {
+                img.removeAttribute('data-src');
+            };
+        });
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+</body>
 </html>

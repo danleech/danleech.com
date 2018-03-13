@@ -1,34 +1,47 @@
 <!doctype html>
-<html lang="en-gb">
+<html lang="en-gb" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="utf-8">
-    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
-    <title>{% if page.title %}{{ page.title }} – {{ site.name }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
-    <meta content="{{ site.author }}" name="author">
-    <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" name="description">
-    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" property="og:title">
-    <meta content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" property="og:description">
-    <meta content="{{ site.url }}{{ page.url | replace:'index.html','' }}" property="og:url">
-    <meta content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" property="og:image">
-    <meta content="{{ site.name }}" property="og:site_name">
-    {% if page.layout == "post" %}
-    <meta content="article" property="og:type">
-    <meta content="https://www.facebook.com/danleech85" property="og:author">
-    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    {% endif %}
-    <link href="/style.css" rel="stylesheet">
-    <link href="{{ site.url }}{{ page.url | replace:'index.html','' }}" rel="canonical">
-    <link href="{{ site.url }}/feed/" rel="alternate" title="{{ site.name }}" type="application/rss+xml">
+    <meta content="initial-scale=1, width=device-width" name="viewport">
+    <title>{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}Dan Leech{% if page.title == "Homepage" %}, Product Designer{% endif %}</title>
+    <meta content="{% if page.description != "" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}" name="description">
+    <meta content="Dan Leech" name="apple-mobile-web-app-title">
+    <meta content="Dan Leech" name="author">
+    <meta content="#1976D2" name="theme-color">
+    <link href="/manifest.json" rel="manifest">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+    <style>{% capture styles %}{% include styles.scss %}{% endcapture %}{{ styles | scssify }}</style>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bathtype">
+    <meta name="twitter:creator" content="@bathtype">
+    <meta property="og:title" content="{% if page.title != "Homepage" %}{{ page.title }} — {% endif %}Dan Leech{% if page.title == "Homepage" %}, Product Designer{% endif %}">
+    <meta property="og:description" content="{% if page.description != "" %}{{ site.description }}{% else %}{{ page.description }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danleech.com{{ page.url }}">
+    <meta property="og:image" content="https://danleech.com/icon-1080p.png" />
+    <meta property="og:image:alt" content="Logo for Dan Leech, made up of two colourful, intersecting code brackets.">
 </head>
 
 <body>
-    <header class="site-header" role="banner">
-        <a class="site-title" href="/" >{{ site.name }}</a>
-        <ul class="site-nav" role="navigation">
-            <li class="site-nav__item"><a href="/#articles">Articles</a></li>
-            <li class="site-nav__item"><a href="/#projects">Projects</a></li>
-            <li class="site-nav__item optional"><a href="https://github.com/danleech">GitHub</a></li>
-            <li class="site-nav__item optional"><a href="https://twitter.com/bathtype">Twitter</a></li>
+    <header class="navbar" id="navigation" role="banner">
+        <button class="nav__toggle" onclick="toggleNavigation()">
+            <svg class="icon--menu" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation on</title>
+                <path d="m 3 6 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 16 l 18 0 l 0 2 l -18 0 z" />
+            </svg>
+            <svg class="icon--close" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation off</title>
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(45 12 12)" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(315 12 12)" />
+            </svg>
+        </button>
+        <ul class="nav" role="navigation">
+            <li class="nav__item--home"><a href="/"><strong>Dan Leech</strong>, Product Designer</a></li>
+            <li class="nav__item"><a href="/#about">About</a></li>
+            <li class="nav__item"><a href="mailto:dan@danleech.com">Contact</a></li>
         </ul>
     </header>
-    <main class="site-main" role="main">

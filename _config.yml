@@ -1,10 +1,4 @@
-name: "Dan Leech"
-url: https://danleech.com
-author: "Dan Leech"
-image: /images/avatar-large.jpg
-description: "Systems Designer in Bath, UK"
-permalink: /articles/:title/
-post_dirs: false
+description: I design digital products that help improve the delivery of healthcare to patients.
 sass:
     sass_dir: _sass
     style: compressed

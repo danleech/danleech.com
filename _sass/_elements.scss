@@ -1,150 +1,107 @@
-html {
+:root {
     font-size: 100%;
-    @media (min-width: 2000px) {
-        font-size: 0.8vw;
+    @media (min-width: $unit-breakpoint-large) {
+        font-size: 125%;
+    }
+    @media (min-width: $unit-breakpoint-xlarge) {
+        font-size: 150%;
     }
 }
 
 a {
-    color: $color-links;
-    text-decoration: none;
+    color: $color-blue-700;
+    text-decoration: underline;
     &:focus, &:hover {
-        color: $color-links-hover;
-        text-decoration: underline;
-    }
-}
-
-article {
-    ul, ol {
-        margin: $unit-baseline 0;
-        padding: 0 0 0 $unit-baseline;
-        @media (min-width: $unit-breakpoint) {
-            padding: 0;
-        }
-    }
-}
-
-blockquote {
-    margin: $unit-baseline * 2 0 0;
-    p {
-        max-width: 33rem;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    & > p:last-child {
-        margin-bottom: 0;
-    }
-    & + p {
-        color: $color-subtle;
-        font-style: italic;
-        margin-top: 0;
+        color: $color-blue-500;
     }
 }
 
 body {
-    background-color: $color-background;
-    color: $color-text;
-    -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-            hyphens: auto;
-    font-family: $font;
-    font-kerning: normal;
+    background-color: $color-white;
+    color: $color-grey-900;
+    display: flex;
+    flex-direction: column;
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-kerning: normal;
+            font-kerning: normal;
+    font-size: 1rem;
     font-variant-ligatures: common-ligatures;
     font-weight: 400;
-    line-height: $unit-baseline;
+    -webkit-hyphens: none;
+        -ms-hyphens: none;
+            hyphens: none;
+    line-height: 1.5rem;
     margin: 0;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
 }
 
-button {
-    background-color: $color-links;
-    border: 0;
-    color: $color-background;
-    font-family: $font;
-    font-size: 0.8125rem;
-    font-weight: 700;
-    line-height: inherit;
-    margin: 0;
-    padding: $unit-baseline / 2 $unit-baseline;
-    &:focus, &:hover {
-        background-color: $color-links-hover;
-        cursor: pointer;
-    }
-}
-
-figcaption {
-    font-size: 0.8125rem;
-    font-style: italic;
-    line-height: $unit-baseline;
-    text-align: center;
-}
-
-figure {
-    line-height: 0;
-    margin: $unit-baseline 0;
-    a {
-        line-height: 0;
-    }
-    img {
-        width: 100%;
+h1, h2, h3, strong {
+    font-weight: 600;
+    em {
+        font-weight: 400;
     }
 }
 
 h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: $unit-baseline * 2;
-    margin: $unit-baseline * 3 0 0;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin: 0 auto 1.5rem;
+    max-width: $unit-measure + 3rem;
+    padding: 0 1.5rem;
+    @media (min-width: $unit-breakpoint-small) {
+        font-size: 2.25rem;
+        line-height: 3rem;
+    }
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: $unit-baseline;
-    margin: $unit-baseline * 3 0 $unit-baseline;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 4.5rem auto 1.5rem;
+    max-width: $unit-measure + 3rem;
+    padding: 0 1.5rem;
+    @media (min-width: $unit-breakpoint-small) {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
 }
 
-input[type="text"] {
-    background-color: inherit;
-    border: 1px solid $color-ui;
-    color: inherit;
-    display: block;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    padding: calc(#{$unit-baseline} / 2 - 1px);
-    width: calc(100% - #{$unit-baseline});
+h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 3rem auto 1.5rem;
+    max-width: $unit-measure + 3rem;
+    padding: 0 1.5rem;
 }
 
-ins {
-    background-color: $color-note;
-    display: block;
-    font-style: italic;
-    padding: $unit-baseline;
-    text-decoration: none;
+li {
+    margin: 0.375rem 0 0.375rem 1.5rem;
+    padding-left: 0.375rem;
+    ul & {
+        list-style: disc;
+    }
 }
 
-label {
-    display: block;
-    font-family: $font;
-    font-size: 0.8125rem;
-    font-weight: 700;
-    margin: $unit-baseline 0 0;
+ol, ul {
+    margin: 1.5rem auto;
+    max-width: $unit-measure + 3rem;
+    padding: 0 1.5rem;
+    ol, ul {
+        margin: 0 auto;
+    }
 }
 
 p {
-    margin: $unit-baseline auto;
+    margin: 1.5rem auto;
+    max-width: $unit-measure + 3rem;
+    padding: 0 1.5rem;
 }
 
-textarea {
-    background-color: inherit;
-    border: 1px solid $color-ui;
-    color: inherit;
-    display: block;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    padding: calc(#{$unit-baseline} / 2 - 1px);
-    width: calc(100% - #{$unit-baseline});
+main {
+    flex-grow: 1;
+}
+
+table {
+    font-variant-numeric: tabular-nums;
 }
