@@ -1,7 +1,4 @@
----
----
-
-var cacheName = 'danleech.com:{{ site.time | date: "%s" }}';
+var cacheName = 'danleech.com:1519061951';
 var cacheFiles = [
     '/offline/',
     '/'
@@ -29,7 +26,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-    var cacheWhitelist = ['danleech.com:{{ site.time | date: "%s" }}'];
+    var cacheWhitelist = ['danleech.com:1519061951'];
     event.waitUntil(
         caches.keys().then(function(cacheNames) {
             return Promise.all(

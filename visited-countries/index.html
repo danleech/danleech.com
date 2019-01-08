@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, width=device-width" name="viewport">
+    <title>Visited Countries — Dan Leech</title>
+    <meta content="I design digital products that help improve the delivery of healthcare to patients." name="description">
+    <meta content="Dan Leech" name="apple-mobile-web-app-title">
+    <meta content="Dan Leech" name="author">
+    <meta content="#1976D2" name="theme-color">
+    <link href="/manifest.json" rel="manifest">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+    <style>@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url("/fonts/IBMPlexSans-SemiBold-Pi.woff2") format("woff2");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url("/fonts/IBMPlexSans-SemiBold-Latin3.woff2") format("woff2");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url("/fonts/IBMPlexSans-SemiBold-Latin2.woff2") format("woff2");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:600;src:local("IBM Plex Sans SemiBold"),local("IBMPlexSans-SemiBold"),url("/fonts/IBMPlexSans-SemiBold-Latin1.woff2") format("woff2");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url("/fonts/IBMPlexSans-Regular-Pi.woff2") format("woff2");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url("/fonts/IBMPlexSans-Regular-Latin3.woff2") format("woff2");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url("/fonts/IBMPlexSans-Regular-Latin2.woff2") format("woff2");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:normal;font-weight:400;src:local("IBM Plex Sans"),local("IBMPlexSans"),url("/fonts/IBMPlexSans-Regular-Latin1.woff2") format("woff2");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url("/fonts/IBMPlexSans-Italic-Pi.woff2") format("woff2");unicode-range:'U+03C0, U+0E3F, U+2070, U+2074-2079, U+2080-2089, U+2113, U+2116, U+2126, U+212E, U+2150-2151, U+2153-215E, U+2190-2199, U+21A9-21AA, U+21B0-21B3, U+21B6-21B7, U+21BA-21BB, U+21C4, U+21C6, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264-2265, U+25CA, U+2713, U+274C, U+2B0E-2B11, U+EBE1, U+EBE3-EBE4, U+EBE6-EBE7, U+ECE0, U+EFCC'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url("/fonts/IBMPlexSans-Italic-Latin3.woff2") format("woff2");unicode-range:'U+0102-0103, U+1EA0-1EF9, U+20AB'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url("/fonts/IBMPlexSans-Italic-Latin2.woff2") format("woff2");unicode-range:'U+0100-024F, U+0259, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF, U+FB01-FB02'}@font-face{font-display:optional;font-family:'IBM Plex Sans';font-style:italic;font-weight:400;src:local("IBM Plex Sans Italic"),local("IBMPlexSans-Italic"),url("/fonts/IBMPlexSans-Italic-Latin1.woff2") format("woff2");unicode-range:'U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2212, U+FB01-FB02'}html{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-tap-highlight-color:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}*,*:before,*:after{box-sizing:inherit;-webkit-font-smoothing:inherit;-moz-osx-font-smoothing:inherit;-webkit-tap-highlight-color:inherit}:root{font-size:100%}@media (min-width: 1281px){:root{font-size:125%}}@media (min-width: 1681px){:root{font-size:150%}}a{color:#1976D2;text-decoration:underline}a:focus,a:hover{color:#2196F3}body{background-color:#fff;color:#212121;display:flex;flex-direction:column;font-family:"IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;-webkit-font-kerning:normal;font-kerning:normal;font-size:1rem;font-variant-ligatures:common-ligatures;font-weight:400;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none;line-height:1.5rem;margin:0;min-height:100vh;text-rendering:optimizeLegibility}h1,h2,h3,strong{font-weight:600}h1 em,h2 em,h3 em,strong em{font-weight:400}h1{font-size:1.5rem;line-height:2.25rem;margin:0 auto 1.5rem;max-width:42rem;padding:0 1.5rem}@media (min-width: 541px){h1{font-size:2.25rem;line-height:3rem}}h2{font-size:1.25rem;line-height:1.5rem;margin:4.5rem auto 1.5rem;max-width:42rem;padding:0 1.5rem}@media (min-width: 541px){h2{font-size:1.5rem;line-height:2.25rem}}h3{font-size:1rem;line-height:1.5rem;margin:3rem auto 1.5rem;max-width:42rem;padding:0 1.5rem}li{margin:0.375rem 0 0.375rem 1.5rem;padding-left:0.375rem}ul li{list-style:disc}ol,ul{margin:1.5rem auto;max-width:42rem;padding:0 1.5rem}ol ol,ol ul,ul ol,ul ul{margin:0 auto}p{margin:1.5rem auto;max-width:42rem;padding:0 1.5rem}main{flex-grow:1}table{font-variant-numeric:tabular-nums}.call-to-action{background-color:#1976D2;color:#fff;font-weight:600;padding:3rem 0 2.25rem;text-align:center}.call-to-action a{border:2px solid #fff;border-radius:2px;color:#fff;line-height:4.5rem;padding:calc(0.75rem - 2px) calc(3rem - 2px);text-decoration:none;white-space:nowrap}.call-to-action a:focus,.call-to-action a:hover{background-color:#fff;color:#1976D2}.case-study-tile{display:flex;flex-direction:row-reverse;flex-wrap:wrap;justify-content:space-between;margin:4.5rem 0 0;padding:0 1.5rem;max-width:calc(60rem)}.case-study-tile__image{width:100%}.case-study-tile__image img{width:100%}@media (min-width: 39rem){.case-study-tile__image{width:calc(50% - 0.75rem)}}.case-study-tile__text{width:100%}.case-study-tile__text h3{margin:1.5rem 0;padding:0}.case-study-tile__text p{padding:0}@media (min-width: 39rem){.case-study-tile__text{width:calc(50% - 0.75rem)}.case-study-tile__text h3{font-size:1.25rem;line-height:1.75rem;margin:0 0 1.5rem}}.footer{background-color:#263238;color:#E0E0E0;text-align:center}.footer a{color:#fff;text-decoration:none}.footer a:focus,.footer a:hover{text-decoration:underline}.meta{color:#757575}.navbar{border-bottom:1px solid #E0E0E0;margin:0 auto;max-width:60rem;width:100%}.navbar.is-open .nav__item{display:block}.navbar.is-open .icon--close{display:block}.navbar.is-open .icon--menu{display:none}@media (min-width: 541px){.navbar{margin:3rem auto 0}}.nav{display:flex;flex-wrap:wrap;list-style:none;margin:0;max-width:none;padding:0}.nav__item{display:none;margin:0 !important;padding:0;width:100%}.nav__item a{border-top:1px solid #E0E0E0;color:#757575;display:block;padding:calc(1.5rem - 1px) 1.5rem 1.5rem;text-decoration:none}.nav__item a:focus,.nav__item a:hover{color:#212121}@media (min-width: 541px){.nav__item{display:block;width:auto}.nav__item a{border-top:none;padding:1.5rem 0.375rem}.nav__item:last-child a{padding-right:1.5rem}}.nav__item--home{list-style:none;margin:0;padding:0;width:100%}.nav__item--home a{color:#757575;display:block;padding:1.5rem 1.5rem;text-decoration:none}.nav__item--home a strong{color:#212121}@media (min-width: 541px){.nav__item--home{flex-grow:1;width:auto}}.nav__toggle{-webkit-appearance:none;background-color:transparent;border:none;cursor:pointer;height:4.5rem;outline:none;position:absolute;right:0;top:0;width:4.5rem}.nav__toggle path{fill:#757575}.nav__toggle svg{height:1.5rem;position:absolute;right:1.5rem;top:1.5rem;width:1.5rem}.nav__toggle .icon--close{display:none}.nav__toggle:focus path,.nav__toggle:hover path{fill:#212121}@media (min-width: 541px){.nav__toggle{display:none}}.page{margin:4.5rem 0;width:100%}.page figcaption{color:#757575;max-width:42rem;margin:0.75rem auto;padding:0 1.5rem;text-align:center}.page figure{padding:0;margin:4.5rem auto;max-width:60rem}.page figure img{background-color:#E0E0E0;height:auto;max-width:100%}.page--home{margin:4.5rem auto;max-width:60rem;width:100%}.page--home h1{margin:0 0 7.5rem;max-width:39rem}.page--home h2{border-bottom:1px solid #E0E0E0;color:#757575;font-size:1rem;font-weight:400;line-height:1.5rem;max-width:60rem;padding:1.5rem}@media print{*{color:#000 !important;max-width:none !important}html{font-size:12px !important}body{margin:3rem 6rem !important}.navbar,.footer,.call-to-action{display:none !important}}
+</style>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@bathtype">
+    <meta name="twitter:creator" content="@bathtype">
+    <meta property="og:title" content="Visited Countries — Dan Leech">
+    <meta property="og:description" content="I design digital products that help improve the delivery of healthcare to patients.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://danleech.com/visited-countries/">
+    <meta property="og:image" content="https://danleech.com/icon-1080p.png" />
+    <meta property="og:image:alt" content="Logo for Dan Leech, made up of two colourful, intersecting code brackets.">
+</head>
+
+<body>
+    <header class="navbar" id="navigation" role="banner">
+        <button class="nav__toggle" onclick="toggleNavigation()">
+            <svg class="icon--menu" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation on</title>
+                <path d="m 3 6 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" />
+                <path d="m 3 16 l 18 0 l 0 2 l -18 0 z" />
+            </svg>
+            <svg class="icon--close" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Toggle navigation off</title>
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(45 12 12)" />
+                <path d="m 3 11 l 18 0 l 0 2 l -18 0 z" transform="rotate(315 12 12)" />
+            </svg>
+        </button>
+        <ul class="nav" role="navigation">
+            <li class="nav__item--home"><a href="/"><strong>Dan Leech</strong>, Product Designer</a></li>
+            <li class="nav__item"><a href="/#about-me">About</a></li>
+            <li class="nav__item"><a href="mailto:dan@danleech.com">Contact</a></li>
+        </ul>
+    </header>
+    <main class="page" role="main">
+<style>
+    h1 {
+        text-align: center;
+    }
+    .country-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+        list-style: none;
+        margin: 4.5rem auto 0;
+        max-width: 60rem;
+    }
+    .country-list li {
+        font-size: 2.25rem;
+        line-height: 3rem;
+        list-style: none;
+        margin: 0;
+        opacity: 0.1;
+        padding: 0;
+        text-align: center;
+        transition: opacity 0.25s linear;
+    }
+    .country-list li:hover {
+        opacity: 0.5;
+    }
+    .country-list abbr {
+        text-decoration: none;
+    }
+    .country-list a {
+        text-decoration: none;
+    }
+    #AE, #BE, #BH, #CY, #DE, #DK, #ES, #FI, #FR, #GB, #IE, #IT, #JO, #LT, #MT, #MU, #MY, #NL, #NO, #SA, #TZ, #US, #VA {
+        animation: pulse 1s infinite linear;
+        opacity: 1;
+    }
+    @keyframes pulse {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.75;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+</style>
+
+<h1>Visited Countries</h1>
+
+<ul class="country-list">
+
+    <li id="AX"><a href="https://www.google.co.uk/search?q=Åland Islands"><abbr title="Åland Islands">🇦🇽</abbr></a></li>
+    <li id="AF"><a href="https://www.google.co.uk/search?q=Afghanistan"><abbr title="Afghanistan">🇦🇫</abbr></a></li>
+    <li id="AL"><a href="https://www.google.co.uk/search?q=Albania"><abbr title="Albania">🇦🇱</abbr></a></li>
+    <li id="DZ"><a href="https://www.google.co.uk/search?q=Algeria"><abbr title="Algeria">🇩🇿</abbr></a></li>
+    <li id="AS"><a href="https://www.google.co.uk/search?q=American Samoa"><abbr title="American Samoa">🇦🇸</abbr></a></li>
+    <li id="AD"><a href="https://www.google.co.uk/search?q=Andorra"><abbr title="Andorra">🇦🇩</abbr></a></li>
+    <li id="AO"><a href="https://www.google.co.uk/search?q=Angola"><abbr title="Angola">🇦🇴</abbr></a></li>
+    <li id="AI"><a href="https://www.google.co.uk/search?q=Anguilla"><abbr title="Anguilla">🇦🇮</abbr></a></li>
+    <li id="AQ"><a href="https://www.google.co.uk/search?q=Antarctica"><abbr title="Antarctica">🇦🇶</abbr></a></li>
+    <li id="AG"><a href="https://www.google.co.uk/search?q=Antigua and Barbuda"><abbr title="Antigua and Barbuda">🇦🇬</abbr></a></li>
+    <li id="AR"><a href="https://www.google.co.uk/search?q=Argentina"><abbr title="Argentina">🇦🇷</abbr></a></li>
+    <li id="AM"><a href="https://www.google.co.uk/search?q=Armenia"><abbr title="Armenia">🇦🇲</abbr></a></li>
+    <li id="AW"><a href="https://www.google.co.uk/search?q=Aruba"><abbr title="Aruba">🇦🇼</abbr></a></li>
+    <li id="AU"><a href="https://www.google.co.uk/search?q=Australia"><abbr title="Australia">🇦🇺</abbr></a></li>
+    <li id="AT"><a href="https://www.google.co.uk/search?q=Austria"><abbr title="Austria">🇦🇹</abbr></a></li>
+    <li id="AZ"><a href="https://www.google.co.uk/search?q=Azerbaijan"><abbr title="Azerbaijan">🇦🇿</abbr></a></li>
+    <li id="BS"><a href="https://www.google.co.uk/search?q=Bahamas"><abbr title="Bahamas">🇧🇸</abbr></a></li>
+    <li id="BH"><a href="https://www.google.co.uk/search?q=Bahrain"><abbr title="Bahrain">🇧🇭</abbr></a></li>
+    <li id="BD"><a href="https://www.google.co.uk/search?q=Bangladesh"><abbr title="Bangladesh">🇧🇩</abbr></a></li>
+    <li id="BB"><a href="https://www.google.co.uk/search?q=Barbados"><abbr title="Barbados">🇧🇧</abbr></a></li>
+    <li id="BY"><a href="https://www.google.co.uk/search?q=Belarus"><abbr title="Belarus">🇧🇾</abbr></a></li>
+    <li id="BE"><a href="https://www.google.co.uk/search?q=Belgium"><abbr title="Belgium">🇧🇪</abbr></a></li>
+    <li id="BZ"><a href="https://www.google.co.uk/search?q=Belize"><abbr title="Belize">🇧🇿</abbr></a></li>
+    <li id="BJ"><a href="https://www.google.co.uk/search?q=Benin"><abbr title="Benin">🇧🇯</abbr></a></li>
+    <li id="BM"><a href="https://www.google.co.uk/search?q=Bermuda"><abbr title="Bermuda">🇧🇲</abbr></a></li>
+    <li id="BT"><a href="https://www.google.co.uk/search?q=Bhutan"><abbr title="Bhutan">🇧🇹</abbr></a></li>
+    <li id="BO"><a href="https://www.google.co.uk/search?q=Bolivia, Plurinational State of"><abbr title="Bolivia, Plurinational State of">🇧🇴</abbr></a></li>
+    <li id="BQ"><a href="https://www.google.co.uk/search?q=Bonaire, Sint Eustatius and Saba"><abbr title="Bonaire, Sint Eustatius and Saba">🏴󠁢󠁱󠁳󠁥󠁿</abbr></a></li>
+    <li id="BA"><a href="https://www.google.co.uk/search?q=Bosnia and Herzegovina"><abbr title="Bosnia and Herzegovina">🇧🇦</abbr></a></li>
+    <li id="BW"><a href="https://www.google.co.uk/search?q=Botswana"><abbr title="Botswana">🇧🇼</abbr></a></li>
+    <li id="BV"><a href="https://www.google.co.uk/search?q=Bouvet Island"><abbr title="Bouvet Island">🇧🇻</abbr></a></li>
+    <li id="BR"><a href="https://www.google.co.uk/search?q=Brazil"><abbr title="Brazil">🇧🇷</abbr></a></li>
+    <li id="IO"><a href="https://www.google.co.uk/search?q=British Indian Ocean Territory"><abbr title="British Indian Ocean Territory">🇮🇴</abbr></a></li>
+    <li id="BN"><a href="https://www.google.co.uk/search?q=Brunei Darussalam"><abbr title="Brunei Darussalam">🇧🇳</abbr></a></li>
+    <li id="BG"><a href="https://www.google.co.uk/search?q=Bulgaria"><abbr title="Bulgaria">🇧🇬</abbr></a></li>
+    <li id="BF"><a href="https://www.google.co.uk/search?q=Burkina Faso"><abbr title="Burkina Faso">🇧🇫</abbr></a></li>
+    <li id="BI"><a href="https://www.google.co.uk/search?q=Burundi"><abbr title="Burundi">🇧🇮</abbr></a></li>
+    <li id="CI"><a href="https://www.google.co.uk/search?q=Côte d’Ivoire"><abbr title="Côte d’Ivoire">🇨🇮</abbr></a></li>
+    <li id="CV"><a href="https://www.google.co.uk/search?q=Cabo Verde"><abbr title="Cabo Verde">🇨🇻</abbr></a></li>
+    <li id="KH"><a href="https://www.google.co.uk/search?q=Cambodia"><abbr title="Cambodia">🇰🇭</abbr></a></li>
+    <li id="CM"><a href="https://www.google.co.uk/search?q=Cameroon"><abbr title="Cameroon">🇨🇲</abbr></a></li>
+    <li id="CA"><a href="https://www.google.co.uk/search?q=Canada"><abbr title="Canada">🇨🇦</abbr></a></li>
+    <li id="KY"><a href="https://www.google.co.uk/search?q=Cayman Islands"><abbr title="Cayman Islands">🇰🇾</abbr></a></li>
+    <li id="CF"><a href="https://www.google.co.uk/search?q=Central African Republic"><abbr title="Central African Republic">🇨🇫</abbr></a></li>
+    <li id="TD"><a href="https://www.google.co.uk/search?q=Chad"><abbr title="Chad">🇹🇩</abbr></a></li>
+    <li id="CL"><a href="https://www.google.co.uk/search?q=Chile"><abbr title="Chile">🇨🇱</abbr></a></li>
+    <li id="CN"><a href="https://www.google.co.uk/search?q=China"><abbr title="China">🇨🇳</abbr></a></li>
+    <li id="CX"><a href="https://www.google.co.uk/search?q=Christmas Island"><abbr title="Christmas Island">🇨🇽</abbr></a></li>
+    <li id="CC"><a href="https://www.google.co.uk/search?q=Cocos (Keeling) Islands"><abbr title="Cocos (Keeling) Islands">🇨🇨</abbr></a></li>
+    <li id="CO"><a href="https://www.google.co.uk/search?q=Colombia"><abbr title="Colombia">🇨🇴</abbr></a></li>
+    <li id="KM"><a href="https://www.google.co.uk/search?q=Comoros"><abbr title="Comoros">🇰🇲</abbr></a></li>
+    <li id="CG"><a href="https://www.google.co.uk/search?q=Congo"><abbr title="Congo">🇨🇬</abbr></a></li>
+    <li id="CD"><a href="https://www.google.co.uk/search?q=Congo, the Democratic Republic of the"><abbr title="Congo, the Democratic Republic of the">🇨🇩</abbr></a></li>
+    <li id="CK"><a href="https://www.google.co.uk/search?q=Cook Islands"><abbr title="Cook Islands">🇨🇰</abbr></a></li>
+    <li id="CR"><a href="https://www.google.co.uk/search?q=Costa Rica"><abbr title="Costa Rica">🇨🇷</abbr></a></li>
+    <li id="HR"><a href="https://www.google.co.uk/search?q=Croatia"><abbr title="Croatia">🇭🇷</abbr></a></li>
+    <li id="CU"><a href="https://www.google.co.uk/search?q=Cuba"><abbr title="Cuba">🇨🇺</abbr></a></li>
+    <li id="CW"><a href="https://www.google.co.uk/search?q=Curaçao"><abbr title="Curaçao">🇨🇼</abbr></a></li>
+    <li id="CY"><a href="https://www.google.co.uk/search?q=Cyprus"><abbr title="Cyprus">🇨🇾</abbr></a></li>
+    <li id="CZ"><a href="https://www.google.co.uk/search?q=Czechia"><abbr title="Czechia">🇨🇿</abbr></a></li>
+    <li id="DK"><a href="https://www.google.co.uk/search?q=Denmark"><abbr title="Denmark">🇩🇰</abbr></a></li>
+    <li id="DJ"><a href="https://www.google.co.uk/search?q=Djibouti"><abbr title="Djibouti">🇩🇯</abbr></a></li>
+    <li id="DM"><a href="https://www.google.co.uk/search?q=Dominica"><abbr title="Dominica">🇩🇲</abbr></a></li>
+    <li id="DO"><a href="https://www.google.co.uk/search?q=Dominican Republic"><abbr title="Dominican Republic">🇩🇴</abbr></a></li>
+    <li id="EC"><a href="https://www.google.co.uk/search?q=Ecuador"><abbr title="Ecuador">🇪🇨</abbr></a></li>
+    <li id="EG"><a href="https://www.google.co.uk/search?q=Egypt"><abbr title="Egypt">🇪🇬</abbr></a></li>
+    <li id="SV"><a href="https://www.google.co.uk/search?q=El Salvador"><abbr title="El Salvador">🇸🇻</abbr></a></li>
+    <li id="GQ"><a href="https://www.google.co.uk/search?q=Equatorial Guinea"><abbr title="Equatorial Guinea">🇬🇶</abbr></a></li>
+    <li id="ER"><a href="https://www.google.co.uk/search?q=Eritrea"><abbr title="Eritrea">🇪🇷</abbr></a></li>
+    <li id="EE"><a href="https://www.google.co.uk/search?q=Estonia"><abbr title="Estonia">🇪🇪</abbr></a></li>
+    <li id="ET"><a href="https://www.google.co.uk/search?q=Ethiopia"><abbr title="Ethiopia">🇪🇹</abbr></a></li>
+    <li id="FK"><a href="https://www.google.co.uk/search?q=Falkland Islands (Malvinas)"><abbr title="Falkland Islands (Malvinas)">🇫🇰</abbr></a></li>
+    <li id="FO"><a href="https://www.google.co.uk/search?q=Faroe Islands"><abbr title="Faroe Islands">🇫🇴</abbr></a></li>
+    <li id="FJ"><a href="https://www.google.co.uk/search?q=Fiji"><abbr title="Fiji">🇫🇯</abbr></a></li>
+    <li id="FI"><a href="https://www.google.co.uk/search?q=Finland"><abbr title="Finland">🇫🇮</abbr></a></li>
+    <li id="FR"><a href="https://www.google.co.uk/search?q=France"><abbr title="France">🇫🇷</abbr></a></li>
+    <li id="GF"><a href="https://www.google.co.uk/search?q=French Guiana"><abbr title="French Guiana">🇬🇫</abbr></a></li>
+    <li id="PF"><a href="https://www.google.co.uk/search?q=French Polynesia"><abbr title="French Polynesia">🇵🇫</abbr></a></li>
+    <li id="TF"><a href="https://www.google.co.uk/search?q=French Southern Territories"><abbr title="French Southern Territories">🇹🇫</abbr></a></li>
+    <li id="GA"><a href="https://www.google.co.uk/search?q=Gabon"><abbr title="Gabon">🇬🇦</abbr></a></li>
+    <li id="GM"><a href="https://www.google.co.uk/search?q=Gambia"><abbr title="Gambia">🇬🇲</abbr></a></li>
+    <li id="GE"><a href="https://www.google.co.uk/search?q=Georgia"><abbr title="Georgia">🇬🇪</abbr></a></li>
+    <li id="DE"><a href="https://www.google.co.uk/search?q=Germany"><abbr title="Germany">🇩🇪</abbr></a></li>
+    <li id="GH"><a href="https://www.google.co.uk/search?q=Ghana"><abbr title="Ghana">🇬🇭</abbr></a></li>
+    <li id="GI"><a href="https://www.google.co.uk/search?q=Gibraltar"><abbr title="Gibraltar">🇬🇮</abbr></a></li>
+    <li id="GR"><a href="https://www.google.co.uk/search?q=Greece"><abbr title="Greece">🇬🇷</abbr></a></li>
+    <li id="GL"><a href="https://www.google.co.uk/search?q=Greenland"><abbr title="Greenland">🇬🇱</abbr></a></li>
+    <li id="GD"><a href="https://www.google.co.uk/search?q=Grenada"><abbr title="Grenada">🇬🇩</abbr></a></li>
+    <li id="GP"><a href="https://www.google.co.uk/search?q=Guadeloupe"><abbr title="Guadeloupe">🇬🇵</abbr></a></li>
+    <li id="GU"><a href="https://www.google.co.uk/search?q=Guam"><abbr title="Guam">🇬🇺</abbr></a></li>
+    <li id="GT"><a href="https://www.google.co.uk/search?q=Guatemala"><abbr title="Guatemala">🇬🇹</abbr></a></li>
+    <li id="GG"><a href="https://www.google.co.uk/search?q=Guernsey"><abbr title="Guernsey">🇬🇬</abbr></a></li>
+    <li id="GN"><a href="https://www.google.co.uk/search?q=Guinea"><abbr title="Guinea">🇬🇳</abbr></a></li>
+    <li id="GW"><a href="https://www.google.co.uk/search?q=Guinea-Bissau"><abbr title="Guinea-Bissau">🇬🇼</abbr></a></li>
+    <li id="GY"><a href="https://www.google.co.uk/search?q=Guyana"><abbr title="Guyana">🇬🇾</abbr></a></li>
+    <li id="HT"><a href="https://www.google.co.uk/search?q=Haiti"><abbr title="Haiti">🇭🇹</abbr></a></li>
+    <li id="HM"><a href="https://www.google.co.uk/search?q=Heard Island and McDonald Islands"><abbr title="Heard Island and McDonald Islands">🇭🇲</abbr></a></li>
+    <li id="VA"><a href="https://www.google.co.uk/search?q=Holy See"><abbr title="Holy See">🇻🇦</abbr></a></li>
+    <li id="HN"><a href="https://www.google.co.uk/search?q=Honduras"><abbr title="Honduras">🇭🇳</abbr></a></li>
+    <li id="HK"><a href="https://www.google.co.uk/search?q=Hong Kong"><abbr title="Hong Kong">🇭🇰</abbr></a></li>
+    <li id="HU"><a href="https://www.google.co.uk/search?q=Hungary"><abbr title="Hungary">🇭🇺</abbr></a></li>
+    <li id="IS"><a href="https://www.google.co.uk/search?q=Iceland"><abbr title="Iceland">🇮🇸</abbr></a></li>
+    <li id="IN"><a href="https://www.google.co.uk/search?q=India"><abbr title="India">🇮🇳</abbr></a></li>
+    <li id="ID"><a href="https://www.google.co.uk/search?q=Indonesia"><abbr title="Indonesia">🇮🇩</abbr></a></li>
+    <li id="IR"><a href="https://www.google.co.uk/search?q=Iran, Islamic Republic of"><abbr title="Iran, Islamic Republic of">🇮🇷</abbr></a></li>
+    <li id="IQ"><a href="https://www.google.co.uk/search?q=Iraq"><abbr title="Iraq">🇮🇶</abbr></a></li>
+    <li id="IE"><a href="https://www.google.co.uk/search?q=Ireland"><abbr title="Ireland">🇮🇪</abbr></a></li>
+    <li id="IM"><a href="https://www.google.co.uk/search?q=Isle of Man"><abbr title="Isle of Man">🇮🇲</abbr></a></li>
+    <li id="IL"><a href="https://www.google.co.uk/search?q=Israel"><abbr title="Israel">🇮🇱</abbr></a></li>
+    <li id="IT"><a href="https://www.google.co.uk/search?q=Italy"><abbr title="Italy">🇮🇹</abbr></a></li>
+    <li id="JM"><a href="https://www.google.co.uk/search?q=Jamaica"><abbr title="Jamaica">🇯🇲</abbr></a></li>
+    <li id="JP"><a href="https://www.google.co.uk/search?q=Japan"><abbr title="Japan">🇯🇵</abbr></a></li>
+    <li id="JE"><a href="https://www.google.co.uk/search?q=Jersey"><abbr title="Jersey">🇯🇪</abbr></a></li>
+    <li id="JO"><a href="https://www.google.co.uk/search?q=Jordan"><abbr title="Jordan">🇯🇴</abbr></a></li>
+    <li id="KZ"><a href="https://www.google.co.uk/search?q=Kazakhstan"><abbr title="Kazakhstan">🇰🇿</abbr></a></li>
+    <li id="KE"><a href="https://www.google.co.uk/search?q=Kenya"><abbr title="Kenya">🇰🇪</abbr></a></li>
+    <li id="KI"><a href="https://www.google.co.uk/search?q=Kiribati"><abbr title="Kiribati">🇰🇮</abbr></a></li>
+    <li id="KP"><a href="https://www.google.co.uk/search?q=Korea, Democratic People's Republic of"><abbr title="Korea, Democratic People's Republic of">🇰🇵</abbr></a></li>
+    <li id="KR"><a href="https://www.google.co.uk/search?q=Korea, Republic of"><abbr title="Korea, Republic of">🇰🇷</abbr></a></li>
+    <li id="KW"><a href="https://www.google.co.uk/search?q=Kuwait"><abbr title="Kuwait">🇰🇼</abbr></a></li>
+    <li id="KG"><a href="https://www.google.co.uk/search?q=Kyrgyzstan"><abbr title="Kyrgyzstan">🇰🇬</abbr></a></li>
+    <li id="LA"><a href="https://www.google.co.uk/search?q=Lao People's Democratic Republic"><abbr title="Lao People's Democratic Republic">🇱🇦</abbr></a></li>
+    <li id="LV"><a href="https://www.google.co.uk/search?q=Latvia"><abbr title="Latvia">🇱🇻</abbr></a></li>
+    <li id="LB"><a href="https://www.google.co.uk/search?q=Lebanon"><abbr title="Lebanon">🇱🇧</abbr></a></li>
+    <li id="LS"><a href="https://www.google.co.uk/search?q=Lesotho"><abbr title="Lesotho">🇱🇸</abbr></a></li>
+    <li id="LR"><a href="https://www.google.co.uk/search?q=Liberia"><abbr title="Liberia">🇱🇷</abbr></a></li>
+    <li id="LY"><a href="https://www.google.co.uk/search?q=Libya"><abbr title="Libya">🇱🇾</abbr></a></li>
+    <li id="LI"><a href="https://www.google.co.uk/search?q=Liechtenstein"><abbr title="Liechtenstein">🇱🇮</abbr></a></li>
+    <li id="LT"><a href="https://www.google.co.uk/search?q=Lithuania"><abbr title="Lithuania">🇱🇹</abbr></a></li>
+    <li id="LU"><a href="https://www.google.co.uk/search?q=Luxembourg"><abbr title="Luxembourg">🇱🇺</abbr></a></li>
+    <li id="MO"><a href="https://www.google.co.uk/search?q=Macao"><abbr title="Macao">🇲🇴</abbr></a></li>
+    <li id="MK"><a href="https://www.google.co.uk/search?q=Macedonia, the former Yugoslav Republic of"><abbr title="Macedonia, the former Yugoslav Republic of">🇲🇰</abbr></a></li>
+    <li id="MG"><a href="https://www.google.co.uk/search?q=Madagascar"><abbr title="Madagascar">🇲🇬</abbr></a></li>
+    <li id="MW"><a href="https://www.google.co.uk/search?q=Malawi"><abbr title="Malawi">🇲🇼</abbr></a></li>
+    <li id="MY"><a href="https://www.google.co.uk/search?q=Malaysia"><abbr title="Malaysia">🇲🇾</abbr></a></li>
+    <li id="MV"><a href="https://www.google.co.uk/search?q=Maldives"><abbr title="Maldives">🇲🇻</abbr></a></li>
+    <li id="ML"><a href="https://www.google.co.uk/search?q=Mali"><abbr title="Mali">🇲🇱</abbr></a></li>
+    <li id="MT"><a href="https://www.google.co.uk/search?q=Malta"><abbr title="Malta">🇲🇹</abbr></a></li>
+    <li id="MH"><a href="https://www.google.co.uk/search?q=Marshall Islands"><abbr title="Marshall Islands">🇲🇰</abbr></a></li>
+    <li id="MQ"><a href="https://www.google.co.uk/search?q=Martinique"><abbr title="Martinique">🇲🇶</abbr></a></li>
+    <li id="MR"><a href="https://www.google.co.uk/search?q=Mauritania"><abbr title="Mauritania">🇲🇷</abbr></a></li>
+    <li id="MU"><a href="https://www.google.co.uk/search?q=Mauritius"><abbr title="Mauritius">🇲🇺</abbr></a></li>
+    <li id="YT"><a href="https://www.google.co.uk/search?q=Mayotte"><abbr title="Mayotte">🇾🇹</abbr></a></li>
+    <li id="MX"><a href="https://www.google.co.uk/search?q=Mexico"><abbr title="Mexico">🇲🇽</abbr></a></li>
+    <li id="FM"><a href="https://www.google.co.uk/search?q=Micronesia, Federated States of"><abbr title="Micronesia, Federated States of">🇫🇲</abbr></a></li>
+    <li id="MD"><a href="https://www.google.co.uk/search?q=Moldova, Republic of"><abbr title="Moldova, Republic of">🇲🇩</abbr></a></li>
+    <li id="MC"><a href="https://www.google.co.uk/search?q=Monaco"><abbr title="Monaco">🇲🇨</abbr></a></li>
+    <li id="MN"><a href="https://www.google.co.uk/search?q=Mongolia"><abbr title="Mongolia">🇲🇳</abbr></a></li>
+    <li id="ME"><a href="https://www.google.co.uk/search?q=Montenegro"><abbr title="Montenegro">🇲🇪</abbr></a></li>
+    <li id="MS"><a href="https://www.google.co.uk/search?q=Montserrat"><abbr title="Montserrat">🇲🇸</abbr></a></li>
+    <li id="MA"><a href="https://www.google.co.uk/search?q=Morocco"><abbr title="Morocco">🇲🇦</abbr></a></li>
+    <li id="MZ"><a href="https://www.google.co.uk/search?q=Mozambique"><abbr title="Mozambique">🇲🇿</abbr></a></li>
+    <li id="MM"><a href="https://www.google.co.uk/search?q=Myanmar"><abbr title="Myanmar">🇲🇲</abbr></a></li>
+    <li id="NA"><a href="https://www.google.co.uk/search?q=Namibia"><abbr title="Namibia">🇳🇦</abbr></a></li>
+    <li id="NR"><a href="https://www.google.co.uk/search?q=Nauru"><abbr title="Nauru">🇳🇷</abbr></a></li>
+    <li id="NP"><a href="https://www.google.co.uk/search?q=Nepal"><abbr title="Nepal">🇳🇵</abbr></a></li>
+    <li id="NL"><a href="https://www.google.co.uk/search?q=Netherlands"><abbr title="Netherlands">🇳🇱</abbr></a></li>
+    <li id="NC"><a href="https://www.google.co.uk/search?q=New Caledonia"><abbr title="New Caledonia">🇳🇨</abbr></a></li>
+    <li id="NZ"><a href="https://www.google.co.uk/search?q=New Zealand"><abbr title="New Zealand">🇳🇿</abbr></a></li>
+    <li id="NI"><a href="https://www.google.co.uk/search?q=Nicaragua"><abbr title="Nicaragua">🇳🇮</abbr></a></li>
+    <li id="NE"><a href="https://www.google.co.uk/search?q=Niger"><abbr title="Niger">🇳🇪</abbr></a></li>
+    <li id="NG"><a href="https://www.google.co.uk/search?q=Nigeria"><abbr title="Nigeria">🇳🇬</abbr></a></li>
+    <li id="NU"><a href="https://www.google.co.uk/search?q=Niue"><abbr title="Niue">🇳🇺</abbr></a></li>
+    <li id="NF"><a href="https://www.google.co.uk/search?q=Norfolk Island"><abbr title="Norfolk Island">🇳🇫</abbr></a></li>
+    <li id="MP"><a href="https://www.google.co.uk/search?q=Northern Mariana Islands"><abbr title="Northern Mariana Islands">🇲🇵</abbr></a></li>
+    <li id="NO"><a href="https://www.google.co.uk/search?q=Norway"><abbr title="Norway">🇳🇴</abbr></a></li>
+    <li id="OM"><a href="https://www.google.co.uk/search?q=Oman"><abbr title="Oman">🇴🇲</abbr></a></li>
+    <li id="PK"><a href="https://www.google.co.uk/search?q=Pakistan"><abbr title="Pakistan">🇵🇰</abbr></a></li>
+    <li id="PW"><a href="https://www.google.co.uk/search?q=Palau"><abbr title="Palau">🇵🇼</abbr></a></li>
+    <li id="PS"><a href="https://www.google.co.uk/search?q=Palestine, State of"><abbr title="Palestine, State of">🇵🇸</abbr></a></li>
+    <li id="PA"><a href="https://www.google.co.uk/search?q=Panama"><abbr title="Panama">🇵🇦</abbr></a></li>
+    <li id="PG"><a href="https://www.google.co.uk/search?q=Papua New Guinea"><abbr title="Papua New Guinea">🇵🇬</abbr></a></li>
+    <li id="PY"><a href="https://www.google.co.uk/search?q=Paraguay"><abbr title="Paraguay">🇵🇾</abbr></a></li>
+    <li id="PE"><a href="https://www.google.co.uk/search?q=Peru"><abbr title="Peru">🇵🇪</abbr></a></li>
+    <li id="PH"><a href="https://www.google.co.uk/search?q=Philippines"><abbr title="Philippines">🇵🇭</abbr></a></li>
+    <li id="PN"><a href="https://www.google.co.uk/search?q=Pitcairn"><abbr title="Pitcairn">🇵🇳</abbr></a></li>
+    <li id="PL"><a href="https://www.google.co.uk/search?q=Poland"><abbr title="Poland">🇵🇱</abbr></a></li>
+    <li id="PT"><a href="https://www.google.co.uk/search?q=Portugal"><abbr title="Portugal">🇵🇹</abbr></a></li>
+    <li id="PR"><a href="https://www.google.co.uk/search?q=Puerto Rico"><abbr title="Puerto Rico">🇵🇷</abbr></a></li>
+    <li id="QA"><a href="https://www.google.co.uk/search?q=Qatar"><abbr title="Qatar">🇶🇦</abbr></a></li>
+    <li id="RE"><a href="https://www.google.co.uk/search?q=Réunion"><abbr title="Réunion">🇷🇪</abbr></a></li>
+    <li id="RO"><a href="https://www.google.co.uk/search?q=Romania"><abbr title="Romania">🇷🇴</abbr></a></li>
+    <li id="RU"><a href="https://www.google.co.uk/search?q=Russian Federation"><abbr title="Russian Federation">🇷🇺</abbr></a></li>
+    <li id="RW"><a href="https://www.google.co.uk/search?q=Rwanda"><abbr title="Rwanda">🇷🇼</abbr></a></li>
+    <li id="BL"><a href="https://www.google.co.uk/search?q=Saint Barthélemy"><abbr title="Saint Barthélemy">🇧🇱</abbr></a></li>
+    <li id="SH"><a href="https://www.google.co.uk/search?q=Saint Helena, Ascension and Tristan da Cunha"><abbr title="Saint Helena, Ascension and Tristan da Cunha">🇸🇭</abbr></a></li>
+    <li id="KN"><a href="https://www.google.co.uk/search?q=Saint Kitts and Nevis"><abbr title="Saint Kitts and Nevis">🇰🇳</abbr></a></li>
+    <li id="LC"><a href="https://www.google.co.uk/search?q=Saint Lucia"><abbr title="Saint Lucia">🇱🇨</abbr></a></li>
+    <li id="MF"><a href="https://www.google.co.uk/search?q=Saint Martin (French part)"><abbr title="Saint Martin (French part)">🇲🇫</abbr></a></li>
+    <li id="PM"><a href="https://www.google.co.uk/search?q=Saint Pierre and Miquelon"><abbr title="Saint Pierre and Miquelon">🇵🇲</abbr></a></li>
+    <li id="VC"><a href="https://www.google.co.uk/search?q=Saint Vincent and the Grenadines"><abbr title="Saint Vincent and the Grenadines">🇻🇨</abbr></a></li>
+    <li id="WS"><a href="https://www.google.co.uk/search?q=Samoa"><abbr title="Samoa">🇾🇪</abbr></a></li>
+    <li id="SM"><a href="https://www.google.co.uk/search?q=San Marino"><abbr title="San Marino">🇸🇲</abbr></a></li>
+    <li id="ST"><a href="https://www.google.co.uk/search?q=Sao Tome and Principe"><abbr title="Sao Tome and Principe">🇸🇹</abbr></a></li>
+    <li id="SA"><a href="https://www.google.co.uk/search?q=Saudi Arabia"><abbr title="Saudi Arabia">🇸🇦</abbr></a></li>
+    <li id="SN"><a href="https://www.google.co.uk/search?q=Senegal"><abbr title="Senegal">🇸🇳</abbr></a></li>
+    <li id="RS"><a href="https://www.google.co.uk/search?q=Serbia"><abbr title="Serbia">🇷🇸</abbr></a></li>
+    <li id="SC"><a href="https://www.google.co.uk/search?q=Seychelles"><abbr title="Seychelles">🇸🇨</abbr></a></li>
+    <li id="SL"><a href="https://www.google.co.uk/search?q=Sierra Leone"><abbr title="Sierra Leone">🇸🇱</abbr></a></li>
+    <li id="SG"><a href="https://www.google.co.uk/search?q=Singapore"><abbr title="Singapore">🇸🇬</abbr></a></li>
+    <li id="SX"><a href="https://www.google.co.uk/search?q=Sint Maarten (Dutch part)"><abbr title="Sint Maarten (Dutch part)">🇸🇽</abbr></a></li>
+    <li id="SK"><a href="https://www.google.co.uk/search?q=Slovakia"><abbr title="Slovakia">🇸🇰</abbr></a></li>
+    <li id="SI"><a href="https://www.google.co.uk/search?q=Slovenia"><abbr title="Slovenia">🇸🇮</abbr></a></li>
+    <li id="SB"><a href="https://www.google.co.uk/search?q=Solomon Islands"><abbr title="Solomon Islands">🇸🇧</abbr></a></li>
+    <li id="SO"><a href="https://www.google.co.uk/search?q=Somalia"><abbr title="Somalia">🇸🇴</abbr></a></li>
+    <li id="ZA"><a href="https://www.google.co.uk/search?q=South Africa"><abbr title="South Africa">🇿🇦</abbr></a></li>
+    <li id="GS"><a href="https://www.google.co.uk/search?q=South Georgia and the South Sandwich Islands"><abbr title="South Georgia and the South Sandwich Islands">🇬🇸</abbr></a></li>
+    <li id="SS"><a href="https://www.google.co.uk/search?q=South Sudan"><abbr title="South Sudan">🇸🇸</abbr></a></li>
+    <li id="ES"><a href="https://www.google.co.uk/search?q=Spain"><abbr title="Spain">🇪🇸</abbr></a></li>
+    <li id="LK"><a href="https://www.google.co.uk/search?q=Sri Lanka"><abbr title="Sri Lanka">🇱🇰</abbr></a></li>
+    <li id="SD"><a href="https://www.google.co.uk/search?q=Sudan"><abbr title="Sudan">🇸🇩</abbr></a></li>
+    <li id="SR"><a href="https://www.google.co.uk/search?q=Suriname"><abbr title="Suriname">🇸🇷</abbr></a></li>
+    <li id="SJ"><a href="https://www.google.co.uk/search?q=Svalbard and Jan Mayen"><abbr title="Svalbard and Jan Mayen">🇸🇯</abbr></a></li>
+    <li id="SZ"><a href="https://www.google.co.uk/search?q=Swaziland"><abbr title="Swaziland">🇸🇿</abbr></a></li>
+    <li id="SE"><a href="https://www.google.co.uk/search?q=Sweden"><abbr title="Sweden">🇸🇪</abbr></a></li>
+    <li id="CH"><a href="https://www.google.co.uk/search?q=Switzerland"><abbr title="Switzerland">🇨🇭</abbr></a></li>
+    <li id="SY"><a href="https://www.google.co.uk/search?q=Syrian Arab Republic"><abbr title="Syrian Arab Republic">🇸🇾</abbr></a></li>
+    <li id="TW"><a href="https://www.google.co.uk/search?q=Taiwan, Province of China"><abbr title="Taiwan, Province of China">🇹🇼</abbr></a></li>
+    <li id="TJ"><a href="https://www.google.co.uk/search?q=Tajikistan"><abbr title="Tajikistan">🇹🇯</abbr></a></li>
+    <li id="TZ"><a href="https://www.google.co.uk/search?q=Tanzania, United Republic of"><abbr title="Tanzania, United Republic of">🇹🇿</abbr></a></li>
+    <li id="TH"><a href="https://www.google.co.uk/search?q=Thailand"><abbr title="Thailand">🇹🇭</abbr></a></li>
+    <li id="TL"><a href="https://www.google.co.uk/search?q=Timor-Leste"><abbr title="Timor-Leste">🇹🇱</abbr></a></li>
+    <li id="TG"><a href="https://www.google.co.uk/search?q=Togo"><abbr title="Togo">🇹🇬</abbr></a></li>
+    <li id="TK"><a href="https://www.google.co.uk/search?q=Tokelau"><abbr title="Tokelau">🇹🇰</abbr></a></li>
+    <li id="TO"><a href="https://www.google.co.uk/search?q=Tonga"><abbr title="Tonga">🇹🇴</abbr></a></li>
+    <li id="TT"><a href="https://www.google.co.uk/search?q=Trinidad and Tobago"><abbr title="Trinidad and Tobago">🇹🇹</abbr></a></li>
+    <li id="TN"><a href="https://www.google.co.uk/search?q=Tunisia"><abbr title="Tunisia">🇹🇳</abbr></a></li>
+    <li id="TR"><a href="https://www.google.co.uk/search?q=Turkey"><abbr title="Turkey">🇹🇷</abbr></a></li>
+    <li id="TM"><a href="https://www.google.co.uk/search?q=Turkmenistan"><abbr title="Turkmenistan">🇹🇲</abbr></a></li>
+    <li id="TC"><a href="https://www.google.co.uk/search?q=Turks and Caicos Islands"><abbr title="Turks and Caicos Islands">🇹🇨</abbr></a></li>
+    <li id="TV"><a href="https://www.google.co.uk/search?q=Tuvalu"><abbr title="Tuvalu">🇹🇻</abbr></a></li>
+    <li id="UG"><a href="https://www.google.co.uk/search?q=Uganda"><abbr title="Uganda">🇺🇬</abbr></a></li>
+    <li id="UA"><a href="https://www.google.co.uk/search?q=Ukraine"><abbr title="Ukraine">🇺🇦</abbr></a></li>
+    <li id="AE"><a href="https://www.google.co.uk/search?q=United Arab Emirates"><abbr title="United Arab Emirates">🇦🇪</abbr></a></li>
+    <li id="GB"><a href="https://www.google.co.uk/search?q=United Kingdom of Great Britain and Northern Ireland"><abbr title="United Kingdom of Great Britain and Northern Ireland">🇬🇧</abbr></a></li>
+    <li id="UM"><a href="https://www.google.co.uk/search?q=United States Minor Outlying Islands"><abbr title="United States Minor Outlying Islands">🇺🇲</abbr></a></li>
+    <li id="US"><a href="https://www.google.co.uk/search?q=United States of America"><abbr title="United States of America">🇺🇸</abbr></a></li>
+    <li id="UY"><a href="https://www.google.co.uk/search?q=Uruguay"><abbr title="Uruguay">🇺🇾</abbr></a></li>
+    <li id="UZ"><a href="https://www.google.co.uk/search?q=Uzbekistan"><abbr title="Uzbekistan">🇺🇿</abbr></a></li>
+    <li id="VU"><a href="https://www.google.co.uk/search?q=Vanuatu"><abbr title="Vanuatu">🇻🇺</abbr></a></li>
+    <li id="VE"><a href="https://www.google.co.uk/search?q=Venezuela, Bolivarian Republic of"><abbr title="Venezuela, Bolivarian Republic of">🇻🇪</abbr></a></li>
+    <li id="VN"><a href="https://www.google.co.uk/search?q=Viet Nam"><abbr title="Viet Nam">🇻🇳</abbr></a></li>
+    <li id="VG"><a href="https://www.google.co.uk/search?q=Virgin Islands, British"><abbr title="Virgin Islands, British">🇻🇬</abbr></a></li>
+    <li id="VI"><a href="https://www.google.co.uk/search?q=Virgin Islands, U.S."><abbr title="Virgin Islands, U.S.">🇻🇮</abbr></a></li>
+    <li id="WF"><a href="https://www.google.co.uk/search?q=Wallis and Futuna"><abbr title="Wallis and Futuna">🇼🇫</abbr></a></li>
+    <li id="EH"><a href="https://www.google.co.uk/search?q=Western Sahara"><abbr title="Western Sahara">🇪🇭</abbr></a></li>
+    <li id="YE"><a href="https://www.google.co.uk/search?q=Yemen"><abbr title="Yemen">🇾🇪</abbr></a></li>
+    <li id="ZM"><a href="https://www.google.co.uk/search?q=Zambia"><abbr title="Zambia">🇿🇲</abbr></a></li>
+    <li id="ZW"><a href="https://www.google.co.uk/search?q=Zimbabwe"><abbr title="Zimbabwe">🇿🇼</abbr></a></li>
+</ul>    </main>
+    <aside class="call-to-action">
+        <p>Are you looking to hire a Product&nbsp;Designer?<br><a href="mailto:dan@danleech.com">Email me</a></p>
+    </aside>
+    <footer class="footer" role="contentinfo">
+        <p>&copy; 2018 Dan&nbsp;Leech. Follow me on <a href="https://github.com/danleech">GitHub</a>&nbsp;and&nbsp;<a href="https://twitter.com/bathtype">Twitter</a>.</p>
+    </footer>
+    <script>
+        function toggleNavigation() {
+            var element = document.getElementById("navigation");
+            element.classList.toggle("is-open");
+        }
+        [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+            img.setAttribute('src', img.getAttribute('data-src'));
+            img.onload = function() {
+                img.removeAttribute('data-src');
+            };
+        });
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
