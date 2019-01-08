@@ -1,4 +1,4 @@
-var cacheName = 'danleech.com:1519061951';
+var cacheName = 'danleech.com:00001';
 var cacheFiles = [
     '/offline/',
     '/'
@@ -26,7 +26,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-    var cacheWhitelist = ['danleech.com:1519061951'];
+    var cacheWhitelist = ['danleech.com:00001'];
     event.waitUntil(
         caches.keys().then(function(cacheNames) {
             return Promise.all(
