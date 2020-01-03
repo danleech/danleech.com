@@ -1,17 +1,36 @@
-._*
-.apdisk
-.AppleDB
-.AppleDesktop
-.AppleDouble
-.com.apple.timemachine.donotpresent
-.DocumentRevisions-V100
+# Jekyll
+
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+
+
+# macOS
+
 .DS_Store
-.fseventsd
+.AppleDouble
 .LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
-Icon
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
 Network Trash Folder
 Temporary Items
+.apdisk
+
+
+
+# Sass
+
+*.css.map
+*.sass.map
+*.scss.map
